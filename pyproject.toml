@@ -1,0 +1,110 @@
+[tool.poetry]
+name = "fhibe_eval_api"
+version = "0.1.0"
+description = "A Python package for performing model evaluations on FHIBE"
+authors = []
+readme = "README.md"
+package-mode = true
+
+[tool.poetry.dependencies]
+python = "^3.11.0"
+torch = "2.2.0"
+pandas = "^2.2.2"
+reportlab = "^4.2.2"
+seaborn = "^0.13.2"
+tqdm = "^4.66.4"
+opencv-python = "^4.10.0.84"
+numpy = "1.26.3"
+pycocotools = "^2.0.8"
+pillow = "^10.3.0"
+torchvision = "0.17"
+boto3 = "^1.35.33"
+funcy = "^2.0"
+piq = "^0.8.0"
+scikit-learn = "^1.5.2"
+facenet-pytorch = "2.5.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+pre-commit = "^3.8.0"
+ruff = "^0.6.2"
+black = "^24.8.0"
+ipykernel = "^6.29.5"
+types-tqdm = "^4.66.0.20240417"
+coverage = "^7.6.3"
+scipy-stubs = "^1.14.1.4"
+
+[tool.ruff]
+indent-width = 4
+line-length = 88
+target-version = "py310"
+extend-include = ["*.ipynb"]
+lint.select = ["E", "W", "F", "D", "I", "N", "Q"]
+lint.ignore = ["W291","D101"]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "fhibe_eval_api/metrics/face_verification/matlab_cp2tform.py",
+    "fhibe_eval_api/metrics/face_verification/utils.py"
+]
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+lint.fixable = [
+    "A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", 
+    "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", 
+    "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", 
+    "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"
+    ]
+lint.unfixable = []
+
+# Exclude a variety of commonly ignored files/directories.
+
+
+# Allow unused variables when underscore-prefixed.
+lint.dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402", "F401"]
+"tests/*.py" = ["D100","D103","D107","N806"]
+"demo/*.py" = ["D100","D104"]
+"tests/__init__.py" = ["D104"]
+"tests/models.py" = ["D102"]
+"scripts/*.py" = ["N806","N802"]
+
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+include = ".pyi?$"
+
+[tool.coverage.run]
+omit = [
+    "fhibe_eval_api/metrics/face_verification/*",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
