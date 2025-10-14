@@ -10,7 +10,18 @@ The **FHIBE-Face** dataset is a derivative dataset where each image is of a sing
 
 ### Obtaining the dataset
 
-Download the appropriate dataset from **TODO -- add landing page link**
+**NOTE**: Always ensure you are using the latest version of FHIBE. In compliance with GDPR, subjects can revoke their consent from the dataset at any time. To respect this, we will remove these subjects on a monthly basis and update the dataset at the download page below.
+
+Download the latest dataset from https://fairnessbenchmark.ai.sony/download, choosing either the downsampled FHIBE dataset or the crop+aligned FHIBE-Face dataset depending on your use case. See the Task overview section below to help determine which dataset(s) you will need.
+
+The FHIBE downsampled dataset tar ball will unpack into two directories:
+
+```
+fhibe_{version_name}_nature
+fhibe_{version_name}_nature_metadata
+```
+
+Where the `{version_name}` is variable depending on the current version.
 
 ## API overview
 
@@ -81,7 +92,7 @@ $ git clone git@github.com:SonyResearch/fhibe_evaluation_api.git
 $ cd fhibe_evaluation_api
 ```
 
-3. If you don't already have `poetry` installed, follow the [official installation instructions](https://python-poetry.org/docs/#installation) to obtain it. 
+3. If you don't already have `poetry` installed, follow the [official installation instructions](https://python-poetry.org/docs/#installation) to obtain it.
 
 4. Install the virtual environment and its dependencies for this project:
 
@@ -90,7 +101,6 @@ $ poetry install
 ```
 
 The install command may take a few minutes.
-
 
 ### Run the demos
 
