@@ -21,7 +21,7 @@ fhibe_{version_name}_nature
 fhibe_{version_name}_nature_metadata
 ```
 
-Where the `{version_name}` is variable depending on the current version.
+Where the `{version_name}` refers to the current version, which will vary depending on when you downloaded the dataset.
 
 ## API overview
 
