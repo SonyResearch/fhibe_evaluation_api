@@ -69,11 +69,12 @@ def get_eval_api(
         )
     dataframe = pd.read_csv(annotations_csv_fp)
     # Update the filepath (image) and json_path (annotation) columns to absolute paths
+
     dataframe["filepath"] = dataframe["filepath"].apply(
-        lambda x: os.path.join(data_dir, x)
+        lambda x: process_filepaths(x, data_dir)
     )
     dataframe["json_path"] = dataframe["json_path"].apply(
-        lambda x: os.path.join(data_dir, x)
+        lambda x: process_filepaths(x, data_dir)
     )
 
     if use_mini_dataset:
@@ -98,6 +99,24 @@ def get_eval_api(
             intersectional_column_names=intersectional_column_names,
         )
     return eval_api
+
+
+def process_filepaths(filepath: str, data_dir: str) -> str:
+    """Convert relative filepaths to absolute paths.
+
+    Args:
+        filepath: The relative filepath from the metadata dataframe.
+        data_dir: The root data directory to prepend to relative paths.
+
+    Return:
+        The processed filepath.
+    """
+    if filepath.startswith("data/raw/"):
+        # Then either starts with data/raw/fhibe_downsampled or
+        # data/raw/fhibe_face_crop_align
+        # We want to strip off the leading data/raw/{dataset} part
+        filepath = os.path.join(filepath.split("/", 3)[-1])
+    return os.path.join(data_dir, filepath)
 
 
 def prepare_evaluation(
