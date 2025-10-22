@@ -68,6 +68,7 @@ def get_eval_api(
             f"Combined annotation file not found: {annotations_csv_fp}. "
         )
     dataframe = pd.read_csv(annotations_csv_fp)
+
     # Update the filepath (image) and json_path (annotation) columns to absolute paths
 
     dataframe["filepath"] = dataframe["filepath"].apply(
@@ -111,11 +112,6 @@ def process_filepaths(filepath: str, data_dir: str) -> str:
     Return:
         The processed filepath.
     """
-    if filepath.startswith("data/raw/"):
-        # Then either starts with data/raw/fhibe_downsampled or
-        # data/raw/fhibe_face_crop_align
-        # We want to strip off the leading data/raw/{dataset} part
-        filepath = os.path.join(filepath.split("/", 3)[-1])
     return os.path.join(data_dir, filepath)
 
 
