@@ -51,7 +51,7 @@ def evaluate_task(
     use_mini_dataset: bool = False,
     mini_dataset_size: int = 50,
     downsampled: bool = True,
-    reuse_model_outputs: bool = True,
+    reuse_model_outputs: bool = False,
     results_rootdir: str = None,
     cuda: bool = True,
     **task_kwargs: Dict[str, Any],
@@ -92,7 +92,7 @@ def evaluate_task(
         downsampled: Whether to use the downsampled FHIBE images. Only relevant if
             dataset_name = "fhibe"
         reuse_model_outputs: Whether to use previously calculated model outputs,
-            if they exist.
+            if they exist. Defaults to False.
         results_rootdir: Where to save the results. If not provided, saves in a
             "results/" subdirectory of the project root.
         cuda: Whether to use the GPU for running inference.
