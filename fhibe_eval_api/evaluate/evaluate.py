@@ -149,15 +149,12 @@ def evaluate_task(
     model_outputs_filepath = os.path.join(current_results_dir, MODEL_OUTPUT_FILENAME)
 
     # Set processed data directory
-    dataset_prefix = os.path.basename(data_rootdir)
-    metadata_dir = os.path.join(data_rootdir, f"{dataset_prefix}_metadata")
-    processed_data_dir = os.path.join(data_rootdir, metadata_dir, "data", "processed")
-    raw_data_dir = os.path.join(data_rootdir, dataset_prefix)
+    processed_data_dir = os.path.join(data_rootdir, "data", "processed")
 
     eval_api = get_eval_api(
         dataset_name=dataset_name,
         dataset_base=dataset_base,
-        data_dir=raw_data_dir,
+        data_dir=data_rootdir,
         processed_data_dir=processed_data_dir,
         intersectional_column_names=attributes,
         use_age_buckets=True,
