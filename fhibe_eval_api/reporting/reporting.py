@@ -42,7 +42,6 @@ from fhibe_eval_api.evaluate.constants import (
     ATTRIBUTE_CONSOLIDATION_DICT,
     ATTRIBUTES_DESCRIPTION_DICT,
     DATASET_DESCRIPTION_DICT,
-    DATASET_VERSION,
     FITZPATRICK_RGB_DICT,
     METADATA_UNIVERSAL_DESCRIPTION,
     TASK_DESCRIPTION_DICT,
@@ -83,6 +82,7 @@ class BiasReport:
         model_name: str,
         task_name: str,
         data_rootdir: str,
+        dataset_version: str,
         results_base_dir: str,
         dataset_name: str,
         results_dir: str | None = None,
@@ -98,6 +98,9 @@ class BiasReport:
                 generate a bias report.
             data_rootdir: The absolute filepath containing the raw/ and processed/
                 subdirectories
+            dataset_version: The version of the FHIBE dataset used in evaluation.
+                Can be found in the name of the directory that the dataset .tar file
+                unpacks to. For example: "fhibe.20250708.m.k_2vTAkV"
             results_base_dir: The absolute filepath to the top-level results/ directory
                 written out during bias evaluation.
             dataset_name: "fhibe", "fhibe_face_crop", or "fhibe_face_crop_align"
@@ -112,6 +115,7 @@ class BiasReport:
         """
         self.model_name = model_name
         self.task_name = task_name
+        self.dataset_version = dataset_version
         self.data_rootdir = data_rootdir
         self.data_dir = os.path.join(self.data_rootdir, "raw")
         self.processed_data_dir = os.path.join(self.data_rootdir, "processed")
@@ -625,7 +629,7 @@ class BiasReport:
         subtitle = (
             f"<center>Task: {hr_task_name}</center><br/>"
             f"<center>Model: {self.model_name}</center><br/>"
-            f"<center>Dataset version: {DATASET_VERSION}</center><br/>"
+            f"<center>Dataset version: {self.dataset_version}</center><br/>"
         )
         date = f"<center>Reported generated on {formatted_date}</center>"
         content.append(Paragraph(subtitle, self.report_subtitle_style))

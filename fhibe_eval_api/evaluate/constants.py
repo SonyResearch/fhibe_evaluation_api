@@ -9,8 +9,6 @@ DEFAULT_RANDOM_STATE = 42
 MODEL_OUTPUT_FILENAME: str = "model_outputs.json"
 RESULTS_IOU_FILENAME: str = "results_iou_threshold.json"
 RESULTS_F1_FILENAME: str = "results_f1.json"
-FHIBE_IMAGE_COUNT_DICT = {"DEC24": 10319, "fhibe.20250708.m.k_2vTAkV": 10318}
-DATASET_VERSION = "fhibe.20250708.m.k_2vTAkV"
 
 VALID_DATASET_NAMES = ["fhibe", "fhibe_face_crop", "fhibe_face_crop_align"]
 
@@ -430,7 +428,7 @@ TASK_DESCRIPTION_DICT = {
 DATASET_DESCRIPTION_DICT = {
     "fhibe": (
         "The model was evaluated using the full-resolution FHIBE dataset. "
-        f"This dataset consists of {FHIBE_IMAGE_COUNT_DICT[DATASET_VERSION]} "
+        "This dataset consists of ~10,000 "
         "high-resolution images comprising "
         "one or two people in a background setting. "
         "The image dimensions vary from image to image, "
@@ -438,14 +436,14 @@ DATASET_DESCRIPTION_DICT = {
     ),
     "fhibe_downsampled": (
         "The model was evaluated using the downsampled FHIBE dataset. "
-        f"This dataset consists of {FHIBE_IMAGE_COUNT_DICT[DATASET_VERSION]} "
+        "This dataset consists of ~10,000 "
         "images comprising one or two people in a background setting. "
         "Each image is resized such that the larger dimension has 2048 pixels, "
         "while maintaining the aspect ratio of the original, higher resolution image."
     ),
     "fhibe_face_crop_align": (
         "The model was evaluated using the FHIBE-face dataset. "
-        f"This dataset consists of {FHIBE_IMAGE_COUNT_DICT[DATASET_VERSION]} "
+        "This dataset consists of ~10,000 "
         "images of a single person's face. "
         "Each image has size 512x512. "
     ),
