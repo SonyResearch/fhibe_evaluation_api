@@ -1,0 +1,47 @@
+.nfs*
+.DS_STORE
+**/.ipynb_checkpoints/
+client_secrets.json
+**/__pycache__
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.pyd
+*.so
+*.dll
+*.egg-info/
+build/
+dist/
+wheels/
+
+# editor settings
+.idea
+.vscode/
+
+# pytorch/python/numpy/onnx formats
+*.pth
+*.npy
+*.npz
+*.onnx
+
+# ignore various folders
+/data
+/model_weights
+/results
+/temp
+/backup
+
+# ignore user-generated files
+
+# testing/coverage
+.coverage
+**/.pytest_cache
+
+# custom files
+**/sandbox.ipynb
+BU_model_evaluations/
+notebooks/
+**/bias_report.pdf
+sandbox/
