@@ -179,8 +179,8 @@ where:
 where:
 
 - `[]` represents a Python list.
-- keypoints are returned in a nested list structure. For each ground truth bounding box (`i`) in an image, there is a single set of predicted keypoints (`j`), represented by a list of lists `[[x_k,y_k]_j]`, where `x_k,y_k` denote the x and y coordiantes of a single keypoint. `k` runs over the keypoints in a set of keypoints detected within a single ground truth bounding box.
-- **!! Important !!**: By default, the full set of keypoints available in this API will be used when evaluating your model. The API will assume that your model outputs all keypoints. The full set of keypoints [follows the COCO dataset format](https://cocodataset.org/#keypoints-eval), and is:
+- keypoints are returned in a nested list structure. For each ground truth person bounding box (`i`) in an image, there is a single set of predicted keypoints (`j`), represented by a list of lists `[[x_k,y_k]_j]`, where `x_k,y_k` denote the x and y coordiantes of a single keypoint (e.g. "Nose"). `k` runs over the keypoints in a set of keypoints detected within a single ground truth bounding box.
+- **!! Important !!**: By default, the full set of keypoints available in this API will be used when evaluating your model. The API will assume that your model outputs all keypoints. In some images, some ground truth keypoints may be invisible and will not be counted when computing the metrics. Your model should return a placeholder value, e.g., -999, if it does not predict the existence of a keypoint. However, the keypoint coordinates must still be present in the output of your model. The full set of keypoints [follows the COCO dataset format](https://cocodataset.org/#keypoints-eval), and is:
 
 ```
 "Nose"
@@ -202,9 +202,9 @@ where:
 "Right ankle"
 ```
 
-You can override the default by specifying a subset of these keypoints to use in the evaluation. To do this, specify the subset as a list via the parameter `custom_keypoints` in the `evaluate_task()` function. The order of the keypoints you specify in this list, e.g., `custom_keypoints=["Nose","Left eye"]` must follow the ordering of the full keypoint set above (this is enforced in the code). The order of the keypoints that your model returns in the output dictionary (see above) MUST FOLLOW the same order as specified in your `custom_keypoints` parameter.
+You can override the default by specifying a subset of these keypoints to use in the evaluation (applied for all images). To do this, specify the subset as a list via the parameter `custom_keypoints` in the `evaluate_task()` function. The order of the keypoints you specify in this list, e.g., `custom_keypoints=["Nose","Left eye"]` must follow the ordering of the full keypoint set above. The order of the keypoints (and confidence scores) that your model returns in the output dictionary (see above) MUST FOLLOW the same order as specified in your `custom_keypoints` parameter.
 
-- Confidence scores are similarly returned in a list of lists of lists. However, instead of the keypoint coordinates in the inner list, the confidence score for a single keypoint, `confidence_k` is reported.
+- Confidence scores are also returned in a list of lists of lists. However, instead of the keypoint coordinates in the inner list, the confidence score for a single keypoint, `confidence_k` is reported.
 
 ### Face parsing
 
