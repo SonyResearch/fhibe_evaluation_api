@@ -1,9 +1,9 @@
 # Copyright (c) Sony AI Inc.
 # All rights reserved.
-import os
 from typing import Any, Dict, List
 
 import numpy as np
+import yaml
 from torch import nn
 from torch.utils.data import DataLoader
 
@@ -24,21 +24,17 @@ class CustomModel(nn.Module):
     def __init__(self) -> None:  # noqa: D107
         super().__init__()
         self.batch_size = batch_size
-        # self.batch_index = 0
 
     def forward(self, batch: List[str]) -> List[Dict[str, Any]]:
         """Perform a forward pass (inference) of a batch of data.
-
-        In reality, predicts randomized bounding boxes
-        to illustrate what a forward pass would look like.
 
         Args:
             batch: A batch from a data loader
 
         Return:
-            List of dicts, where each dict contains the predicted
-            bounding boxes, confidence scores, and class labels
-            for each bbox.
+            List of dicts, where each outer dict contains
+            a list of predicted face bounding boxes and the confidence
+            scores for each bounding box.
         """
         results = []
         for i in range(len(batch)):
@@ -62,15 +58,14 @@ class CustomModel(nn.Module):
 
             results.append(
                 {
-                    "bboxes": bboxes,
-                    "bbox_scores": scores,
-                    "labels": [0 for _ in range(len(bboxes))],
+                    "detections": bboxes,
+                    "scores": scores,
                 }
             )
         return results
 
 
-class DemoPersonLocalizer(BaseModelWrapper):
+class DemoFaceLocalizer(BaseModelWrapper):
     """Model wrapper to comply with API standards."""
 
     def __init__(self, model: Any) -> None:
@@ -84,9 +79,7 @@ class DemoPersonLocalizer(BaseModelWrapper):
         """
         super().__init__(model)
 
-    def data_preprocessor(
-        self, img_filepaths: List[str], **kwargs: Dict[str, Any]
-    ) -> DataLoader:
+    def data_preprocessor(self, img_filepaths: List[str], **kwargs) -> DataLoader:
         """Perform batch preprocessing and return a data loader.
 
         Args:
@@ -113,69 +106,49 @@ class DemoPersonLocalizer(BaseModelWrapper):
             batch: a batch containing images and ground truth bounding boxes
 
         Return:
-            List of dicts, where each dcit contains the predicted
-            bounding boxes, confidence scores, and class labels
-            for each bbox.
+            List of dicts, where each outer dict contains
+            a list of predicted face bounding boxes and the confidence
+            scores for each bounding box.
         """
         result_list = []
         _results = self.model(batch["image_paths"])
         for i in range(len(_results)):
-            result_list.append(
-                {
-                    "bboxes": _results[i]["bboxes"],
-                    "scores": _results[i]["bbox_scores"],
-                    "labels": _results[i]["labels"],
-                }
-            )
+            result = {
+                "detections": _results[i]["detections"],
+                "scores": _results[i]["scores"],
+            }
+            result_list.append(result)
         return result_list
 
 
 def main() -> None:
     """Run the demo."""
-    task_name = "person_localization"
+    with open("./face_localization.yaml", "r") as f:
+        config = yaml.safe_load(f)
 
-    # Person detection requires the full body FHIBE dataset
-    # as opposed to the FHIBE-face dataset.
-    dataset_name = "fhibe"
+    task_name = config["task_name"]
+    dataset_name = config["dataset_name"]
+    data_rootdir = config["data_rootdir"]
+    model_name = config["model_name"]
+    metrics = config["metrics"]
+    attributes = config["attributes"]
+    downsampled = config["downsampled"]
+    use_mini_dataset = config["use_mini_dataset"]
+    dataset_version = config["dataset_version"]
+    results_basedir = config["results_basedir"]
 
-    # Update the version of the FHIBE dataset to the oneyou downloaded
-    # It is the name of the directory that the dataset .tar file unpacks to
-    dataset_version = "fhibe.20250708.m.k_2vTAkV"
-    dataset_dir = f"{dataset_version}_downsampled_public"
+    face_detection_model = CustomModel()
+    wrapped_model = DemoFaceLocalizer(face_detection_model)
 
-    # Give the model a custom name
-    model_name = "person_localization_demo_2025Oct22"
-
-    # Use the absolute recall metric (calcuated from IoU over a range of thresholds).
-    # See full list of available metrics for each task here:
-    # https://github.com/SonyResearch/fhibe_evaluation_api/blob/main/docs/task_specifics.md#available-metrics
-    metrics = {"AR_IOU": {"thresholds": list(np.arange(0.5, 1.0, 0.05))}}
-
-    # Set attributes over which to aggregate metric results - see full list:
-    # fhibe_eval_api.evaluate.constants.FHIBE_ATTRIBUTE_LIST
-    attributes = ["pronoun", "age", "ancestry", "apparent_skin_color"]
-
-    # Downsampled FHIBE dataset is required for the API
-    downsampled = True
-
-    # Set the root path to where you downloaded and expanded the dataset
-    # MODIFY AS NEEDED
-    home_dir = os.path.expanduser("~")
-    data_rootdir = os.path.join(home_dir, "fhibe_public", dataset_dir)
-
-    # Use the mini dataset (n=50 images) to speed up generating results in this notebook
-    use_mini_dataset = True
-
-    model = CustomModel()
-    wrapped_model = DemoPersonLocalizer(model)
     evaluate_task(
-        data_rootdir=data_rootdir,
+        task_name=task_name,
         dataset_name=dataset_name,
+        data_rootdir=data_rootdir,
         model=wrapped_model,
         model_name=model_name,
-        task_name=task_name,
         metrics=metrics,
         attributes=attributes,
+        results_rootdir=results_basedir,
         use_mini_dataset=use_mini_dataset,
         downsampled=downsampled,
     )
@@ -184,7 +157,7 @@ def main() -> None:
         task_name=task_name,
         data_rootdir=data_rootdir,
         dataset_version=dataset_version,
-        results_base_dir=os.path.join(project_root, "results"),
+        results_base_dir=results_basedir,
         dataset_name=dataset_name,
         downsampled=downsampled,
         use_mini_dataset=use_mini_dataset,
