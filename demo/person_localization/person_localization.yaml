@@ -1,0 +1,47 @@
+task_name: "person_localization"
+
+# Face localization uses the full body FHIBE dataset, not FHIBE-face
+dataset_name: "fhibe"
+
+# Set the root path to where you downloaded and expanded the dataset
+# MODIFY AS NEEDED
+data_rootdir: "/home/austin.hoag/fhibe_public/fhibe.20250708.m.k_2vTAkV_downsampled_public"
+dataset_version: "fhibe.20250708.m.k_2vTAkV" # should match version in data_rootdir
+
+# Give the model a custom name
+model_name: "person_localization_demo_2025Oct24"
+
+# Use the average recall metric (calcuated from IoU over a range of thresholds).
+# See full list of available metrics for each task here:
+# https://github.com/SonyResearch/fhibe_evaluation_api/blob/main/docs/task_specifics.md#available-metrics
+metrics:
+  AR_IOU:
+    thresholds:
+      - 0.5
+      - 0.55
+      - 0.6
+      - 0.65
+      - 0.7
+      - 0.75
+      - 0.8
+      - 0.85
+      - 0.9
+      - 0.95
+
+# Set attributes over which to aggregate metric results - see full list:
+# fhibe_eval_api.evaluate.constants.FHIBE_ATTRIBUTE_LIST
+attributes:
+  - "pronoun"
+  - "age"
+  - "ancestry"
+  - "apparent_skin_color"
+
+# Downsampled FHIBE dataset is required for the API
+downsampled: True
+
+# Use the mini dataset (with 50 images) to speed up generating results in this demo
+use_mini_dataset: True
+mini_dataset_size: 50
+
+# Set the base directory where results will be saved
+results_basedir: "/home/austin.hoag/fhibe_evaluation_api/results"

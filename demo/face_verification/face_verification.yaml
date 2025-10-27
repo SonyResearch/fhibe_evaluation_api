@@ -1,0 +1,38 @@
+task_name: "face_verification"
+
+# Face parsing uses the FHIBE-Face crop+align dataset
+dataset_name: "fhibe_face_crop_align"
+
+# Set the root path to where you downloaded and expanded the dataset
+# MODIFY AS NEEDED
+data_rootdir: "/home/austin.hoag/fhibe_public/fhibe.20250708.m.k_2vTAkV_downsampled_public"
+dataset_version: "fhibe.20250708.m.k_2vTAkV" # should match version in data_rootdir
+
+# Give the model a custom name
+model_name: "face_verification_demo_2025Oct27"
+
+# Use the peak signal-to-noise ratio (PSNR) and
+# Learned Perceptual Image Patch Similarity (LPIPS) metrics
+# See full list of available metrics for each task here:
+# https://github.com/SonyResearch/fhibe_evaluation_api/blob/main/docs/task_specifics.md#available-metrics
+metrics:
+  - "VAL"
+
+# Set attributes over which to aggregate metric results - see full list:
+# fhibe_eval_api.evaluate.constants.FHIBE_ATTRIBUTE_LIST
+attributes:
+  - "pronoun"
+  - "age"
+  - "ancestry"
+  - "apparent_skin_color"
+
+# Downsampled FHIBE dataset is required for the API
+downsampled: True
+
+# Use the mini dataset (with 250 images) to speed up generating results in this demo
+# Face verification needs more images to compute metrics, so mini_dataset_size is set to 250
+use_mini_dataset: True
+mini_dataset_size: 250
+
+# Set the base directory where results will be saved
+results_basedir: "/home/austin.hoag/fhibe_evaluation_api/results"

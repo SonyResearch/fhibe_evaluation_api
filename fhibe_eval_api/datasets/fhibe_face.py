@@ -184,7 +184,7 @@ class FHIBEFacePublicEval:
         dataframe = self.dataframe.copy(deep=True)
 
         if drop_two_subjects:
-            dataframe = dataframe.loc[~dataframe["multiple_subjects"]]
+            dataframe = dataframe.loc[~dataframe["multiple_subjects"].astype(bool)]
 
         dataframe["person"] = dataframe["subject_id"]
         dataframe.reset_index(inplace=True, drop=True)
