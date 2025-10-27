@@ -171,6 +171,7 @@ def main() -> None:
     attributes = config["attributes"]
     downsampled = config["downsampled"]
     use_mini_dataset = config["use_mini_dataset"]
+    mini_dataset_size = config["mini_dataset_size"]
     dataset_version = config["dataset_version"]
     results_basedir = config["results_basedir"]
     body_parts_detection_model = CustomModel()
@@ -186,6 +187,7 @@ def main() -> None:
         attributes=attributes,
         results_rootdir=results_basedir,
         use_mini_dataset=use_mini_dataset,
+        mini_dataset_size=mini_dataset_size,
         downsampled=downsampled,
     )
     bias_report = BiasReport(
