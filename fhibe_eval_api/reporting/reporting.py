@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Reporting module.
 
 This module contains a BiasReport class for creating a bias report,

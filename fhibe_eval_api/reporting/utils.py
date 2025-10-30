@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Reporting utility functions.
 
 This module contains functions for calculating the disparity between 

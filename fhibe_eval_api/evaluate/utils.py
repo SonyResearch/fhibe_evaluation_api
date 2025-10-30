@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Utility functions for model evaluation.
 
 This module contains helper functions for performing the model evaluation.

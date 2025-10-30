@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Global variables used for evaluation.
 
 This module contains constants used for the evaluation.

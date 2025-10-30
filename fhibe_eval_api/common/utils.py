@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing generatl utility functions.
 
 This module contains helper functions used throughout the API.

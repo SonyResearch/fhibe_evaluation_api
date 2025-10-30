@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing metrics used in the evaluation.
 
 This module contains functions that calculate metrics on

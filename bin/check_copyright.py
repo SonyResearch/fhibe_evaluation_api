@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 
 """Script to check copyright and rights reserved headers in Python files.
 
@@ -58,7 +57,7 @@ def check_file_headers(file_path: str) -> Optional[str]:
         An error message if headers are incorrect or missing, or None
         if headers are correct.
     """
-    expected_headers = ["# Copyright (c) Sony AI Inc.", "# All rights reserved."]
+    expected_headers = ["# SPDX-License-Identifier: Apache-2.0"]
     with open(file_path) as file:
         for index, line in enumerate(file):
             line = line.strip()
