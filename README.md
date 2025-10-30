@@ -11,7 +11,7 @@ Examples of bias reports for some popular open source models evaluated on FHIBE 
 
 ## Dataset Overview
 
-The **FHIBE** dataset consists of approximately 10,000 high-resolution images of one or two people in a real-world background setting. The image dimensions vary, but are typically 3-10k pixels on a side. A lower resolution ("downsampled") version of this dataset exists, where each image is resized such that the larger dimension has 2048 pixels, while maintaining the original aspect ratio. **This API currently only supports the downsampled version of the FHIBE dataset.**
+The **FHIBE** dataset consists of approximately 10,000 high-resolution images of one or two people in a real-world background setting. The image dimensions vary, but are typically 3-10k pixels on a side. A lower resolution ("downsampled") version of this dataset exists, where each image is resized such that the larger dimension has 2048 pixels, while maintaining the original aspect ratio. **This API currently only supports the downsampled version of the FHIBE dataset.** This is done to avoid memory overflow issues.
 
 The **FHIBE-Face** dataset is a derivative dataset where each image is of a single face only. There are two versions of the FHIBE-face dataset, a crop-only and a crop+aligned version. The crop-only images have the same resolution as the full-res FHIBE images, and the crop+aligned images are standardized such that each image is 512x512 pixels in size. **This API currently only supports the crop+aligned version of the FHIBE-Face dataset.**
 
@@ -19,16 +19,40 @@ The **FHIBE-Face** dataset is a derivative dataset where each image is of a sing
 
 **NOTE**: Always ensure you are using the latest version of FHIBE. In compliance with GDPR, subjects can revoke their consent from the dataset at any time. To respect this, we will remove these subjects on a monthly basis and update the dataset at the download page below.
 
-Download the latest dataset from https://fairnessbenchmark.ai.sony/download, choosing either the downsampled FHIBE dataset or the crop+aligned FHIBE-Face dataset depending on your use case. See the Task overview section below to help determine which dataset(s) you will need.
+Download the latest dataset \*downsampled_public.tar from https://fairnessbenchmark.ai.sony/download. The downsampled FHIBE dataset and the crop+aligned FHIBE-Face dataset are contained within this single tar file.
 
-The FHIBE downsampled dataset tar ball will unpack into two directories:
+The dataset tar ball will unpack into the following directory structure:
 
 ```
-fhibe_{version_name}_nature
-fhibe_{version_name}_nature_metadata
+fhibe.{version_name}_downsampled_public/
+├── data
+│   ├── aggregated_results
+│   │   ├── aggregated_scores
+│   │   └── predictions
+│   ├── annotator_metadata
+│   │   ├── QAannotator_demographics.csv
+│   │   └── annotator_demographics.csv
+│   ├── processed
+│   │   ├── data
+│   │   ├── fhibe_downsampled
+│   │   └── fhibe_face_crop_align
+│   └── raw
+│       └── fhibe_downsampled
 ```
 
 Where the `{version_name}` refers to the current version, which will vary depending on when you downloaded the dataset.
+
+The raw image and annotation files for both FHIBE downsampled and the face crop+align dataset are contained in:
+
+```
+fhibe.{version_name}_downsampled_public/data/raw/fhibe_downsampled/
+```
+
+and the metadata (annotations, subject and annotator attributes) are contained within
+
+```
+fhibe.{version_name}_downsampled_public/data/processed/
+```
 
 ## API overview
 
@@ -176,3 +200,11 @@ The steps to do this are as follows:
   - `reuse_model_outputs=True`
 
 Assuming that you formatted your model results correctly and put them in the correct location for the evaluation API to find them, the evaluation pipeline will simply skip inference and perform the rest of the pipeline, including the bias report generation.
+
+## License
+
+This software is distributed under the [Apache 2.0 License](LICENSE.txt).
+
+## Citing our work
+
+If you use the FHIBE evaluation API and/or the FHIBE dataset in your work, please cite [Xiang et al. 2025](https://www.nature.com/articles/s41586-025-09716-2).
