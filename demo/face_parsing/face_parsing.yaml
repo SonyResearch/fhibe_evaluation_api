@@ -9,7 +9,7 @@ data_rootdir: "/home/austin.hoag/fhibe_public/fhibe.20250708.m.k_2vTAkV_downsamp
 dataset_version: "fhibe.20250708.m.k_2vTAkV" # should match version in data_rootdir
 
 # Give the model a custom name
-model_name: "face_parsing_demo_2025Oct24"
+model_name: "face_parsing_demo_2025Oct30"
 
 # Use the average recall metric (calcuated from IoU over a range of thresholds).
 # See full list of available metrics for each task here:
