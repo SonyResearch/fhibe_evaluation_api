@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing the base model class used in evaluation.
 
 All models used in the API must be wrapped with the base model wrapper.

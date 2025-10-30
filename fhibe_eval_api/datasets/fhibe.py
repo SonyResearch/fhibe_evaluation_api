@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module for preparing the full body FHIBE dataset.
 
 This module contains a class and functions for preparing the FHIBE

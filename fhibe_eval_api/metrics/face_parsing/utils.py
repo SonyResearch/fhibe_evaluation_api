@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing metric utilties specific to the face parsing task."""
 import os
 from typing import Any, Dict, List

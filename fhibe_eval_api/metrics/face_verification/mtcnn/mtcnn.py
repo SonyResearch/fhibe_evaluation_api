@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module implementing the MTCNN network."""
 
 import math
@@ -15,8 +14,7 @@ from facenet_pytorch import MTCNN as facenet_MTCNN  # noqa: N811
 from PIL import Image
 from torch.autograd import Variable
 
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 
 
 CURRENT_DIR = os.path.dirname(__file__)

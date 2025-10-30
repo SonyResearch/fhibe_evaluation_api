@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing constants used in FHIBE metrics.
 
 This module contains lookup dicts for which metrics are used

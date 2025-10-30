@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing metrics for the keypoint estimation task."""
 from typing import Any, Dict, List
 

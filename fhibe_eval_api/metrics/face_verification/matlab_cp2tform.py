@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 
 # Source: https://github.com/ZhaoJ9014/face.evoLVe/blob/master/applications/align/
 # matlab_cp2tform.py

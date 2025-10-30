@@ -113,9 +113,26 @@ The install command may take a few minutes.
 
 ### Run the demos
 
-There are jupyter notebooks in [demo/notebooks/](demo/notebooks/) for each task demonstrating the inputs and outputs of the evaluation.
+The [demo](demo/) directory contains demos for each task. For example, [demo/person_localization](demo/person_localization/) contains the demo for person localization.
 
-There are also demo scripts that perform all of the same steps in the notebooks in `demo/`. You can use the demo script or notebook as a template for your own use case.
+In each demo task directory is a yaml file called `{task_name}.yaml` containing the configuration for that task. You will need to modify the following keys in the yaml to get the demo to run on your machine:
+
+```
+data_rootdir
+dataset_version
+model_name # optional, but you can update to today's date
+results_basedir
+```
+
+Each demo task directory also contains a Python script called `run_{task_name}.py` which is the demo script you will run. If using Poetry, after you have installed the environment as above, you can run the demo scrips using:
+
+```
+$ poetry run python run_{task_name}.py
+```
+
+Once finished, the script will log out some information to disk such as the location of saved files, including the bias report.
+
+For many tasks, the bias report will contain the structure of a real bias report, but it may be empty of actual results. This is due to the fact that the models implemented in the demos are primarily random number generators. To see what a complete bias report looks like for a real model, see the [examples/open_source_model_bias_reports/](examples/open_source_model_bias_reports/).
 
 ## The model base class
 

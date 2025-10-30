@@ -1,5 +1,4 @@
-# Copyright (c) Sony AI Inc.
-# All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
 """Module containing utilities used in all FHIBE datasets.
 
 This module contains a function to fix the location_country
