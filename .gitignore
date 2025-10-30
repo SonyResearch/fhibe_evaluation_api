@@ -41,7 +41,7 @@ notebooks/
 **/bias_report.pdf
 sandbox/
 .nfs*
-.DS_STORE
+**/.DS_STORE
 **/.ipynb_checkpoints/
 client_secrets.json
 **/__pycache__
