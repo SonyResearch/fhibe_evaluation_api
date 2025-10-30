@@ -35,7 +35,7 @@ class FaceDataSet(Dataset):
             None
         """
         if crop_size is None:
-            crop_size = (473, 473)
+            crop_size = (512, 512)
         self.img_filepaths = img_filepaths
         self.crop_size = np.asarray(crop_size)
 
@@ -207,6 +207,7 @@ class CustomModel(nn.Module):
     def __init__(self):  # noqa: D107
         super().__init__()
         self.batch_size = batch_size
+        self.input_size = (512, 512)
 
     def forward(self, batch) -> List[Dict[str, List[Any]]]:
         """Perform a forward pass (inference) of a batch of data.
@@ -222,7 +223,7 @@ class CustomModel(nn.Module):
         for i in range(len(images)):
             # CelebAMask-HQ has 19 integer classes which we encode as 0-18
             dets = np.random.randint(
-                0, 19, size=(images.shape[2], images.shape[3]), dtype=np.uint8
+                0, 19, size=(self.input_size[0], self.input_size[1]), dtype=np.uint8
             )
             results.append(
                 {
@@ -263,7 +264,7 @@ class DemoFaceParser(BaseModelWrapper):
         Return:
             Torch dataloader
         """
-        dataset = FaceDataSet(img_filepaths=img_filepaths, crop_size=(473, 473))
+        dataset = FaceDataSet(img_filepaths=img_filepaths, crop_size=(512, 512))
 
         dataset_loader = data_loader(
             dataset=dataset, batch_size=batch_size, shuffle=False, pin_memory=True
