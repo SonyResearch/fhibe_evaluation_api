@@ -45,4 +45,3 @@ sandbox/
 **/.ipynb_checkpoints/
 client_secrets.json
 **/__pycache__
-examples
