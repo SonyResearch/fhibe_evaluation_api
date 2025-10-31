@@ -21,7 +21,6 @@ def test_evaluate_person_localization(prepare_task_fixture):
         "pronoun",
         "age",
         "apparent_skin_color",
-        "apparent_skin_color_hue_lum",
         "ancestry",
     ]
     (annotations_df, img_filepaths, wrapped_model, model_name, kwargs) = (
@@ -579,7 +578,6 @@ def test_evaluate_face_parsing(prepare_task_fixture):
         "pronoun",
         "age",
         "apparent_skin_color",
-        "apparent_skin_color_hue_lum",
         "ancestry",
     ]
     (annotations_df, img_filepaths, wrapped_model, model_name, kwargs) = (
