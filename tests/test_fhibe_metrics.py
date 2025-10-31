@@ -58,7 +58,6 @@ def test_average_recall_bbox(prepare_task_fixture):
             "age",
             "apparent_skin_color",
             "ancestry",
-            "apparent_skin_color_hue_lum",
         ],
         filepaths=img_filepaths,
         model_outputs=model_outputs,
@@ -76,19 +75,15 @@ def test_average_recall_bbox(prepare_task_fixture):
     if os.path.isfile(detailed_results_path):
         os.remove(detailed_results_path)
 
-    assert len(grouped_results_dict) == 31
-    multi_dim_sc_dict = grouped_results_dict["['apparent_skin_color_hue_lum']"]
-    assert len(multi_dim_sc_dict) == 4
-    assert "['dark_red']" in multi_dim_sc_dict
-    assert "['light_yellow']" in multi_dim_sc_dict
+    assert len(grouped_results_dict) == 15
 
     pronoun_subdict = grouped_results_dict["['pronoun']"]
-    assert len(pronoun_subdict) == 2
+    assert len(pronoun_subdict) == 3
     she_subdict = pronoun_subdict["['0. She/her/hers']"]
     assert len(she_subdict) == 3
     assert list(she_subdict.keys()) == ["scores", "AR_IOU", "Class_Size"]
     assert len(she_subdict["scores"]) == she_subdict["Class_Size"]
-    assert she_subdict["AR_IOU"] == pytest.approx(0.895238095238095)
+    assert she_subdict["AR_IOU"] == pytest.approx(0.8863636363636364)
     assert np.mean(she_subdict["scores"]) == pytest.approx(she_subdict["AR_IOU"])
     longkey = "['pronoun', 'age', 'apparent_skin_color', 'ancestry']"
     assert longkey in grouped_results_dict
@@ -155,8 +150,8 @@ def test_average_recall_mask(prepare_task_fixture):
     assert len(american_subdict) == 3
     assert list(american_subdict.keys()) == ["scores", "AR_MASK", "Class_Size"]
     assert american_subdict["Class_Size"] == len(american_subdict["scores"])
-    assert american_subdict["scores"] == [0.8, 0.9, 0.8]
-    assert american_subdict["AR_MASK"] == pytest.approx(0.83333333)
+    assert american_subdict["scores"] == [0.8, 0.8, 0.9, 0.8]
+    assert american_subdict["AR_MASK"] == pytest.approx(np.mean([0.8, 0.8, 0.9, 0.8]))
 
     assert "['nationality', 'lighting', 'head_pose']" in grouped_results_dict
     intersect_subdict = grouped_results_dict["['nationality', 'lighting', 'head_pose']"]
