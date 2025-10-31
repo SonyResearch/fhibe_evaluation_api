@@ -296,7 +296,7 @@ def test_get_eval_api():
     )
 
     assert len(eval_api.dataframe) == 50
-    assert len(eval_api.dataframe.columns) == 48
+    assert len(eval_api.dataframe.columns) == 77
     assert eval_api.intersectional_column_names == (
         "pronoun",
         "age",
@@ -323,7 +323,7 @@ def test_get_eval_api():
         mini_dataset_size=10,
     )
     assert len(eval_api_mini.dataframe) == 10
-    assert len(eval_api_mini.dataframe.columns) == 49
+    assert len(eval_api_mini.dataframe.columns) == 78
     assert eval_api_mini.intersectional_column_names == (
         "pronoun",
         "age",
@@ -387,10 +387,10 @@ def test_prepare_evaluation(eval_api_fixture, demo_model_fixture):
         cuda=False,
     )
     assert len(annotations_dataframe) == 50
-    assert len(annotations_dataframe.columns) == 49
+    assert len(annotations_dataframe.columns) == 78
     # there are some duplicate filenames in the dataframe
     # img_filepaths is the unique list
-    assert len(img_filepaths) == 50
+    assert len(img_filepaths) == 49
     assert kwargs == {"gt_column_name": "person_bbox"}
 
     task_name = "keypoint_estimation"
@@ -418,16 +418,16 @@ def test_prepare_evaluation(eval_api_fixture, demo_model_fixture):
         cuda=False,
     )
     assert len(annotations_dataframe) == 50
-    assert len(annotations_dataframe.columns) == 51
+    assert len(annotations_dataframe.columns) == 80
     # there are some duplicate filenames in the dataframe
     # img_filepaths is the unique list
-    assert len(img_filepaths) == 50
+    assert len(img_filepaths) == 49
     assert "img_filepath_gt_bboxes" in kwargs
     assert "gt_keypoint_column_name" in kwargs
     assert "gt_face_bbox_column_name" in kwargs
     assert "kpt_oks_sigmas" in kwargs
 
-    assert len(kwargs["img_filepath_gt_bboxes"]) == 50
+    assert len(kwargs["img_filepath_gt_bboxes"]) == 49
     assert kwargs["gt_keypoint_column_name"] == "keypoints_coco_fmt"
     assert kwargs["gt_face_bbox_column_name"] == "face_bbox"
     compare_array = np.array(
@@ -470,7 +470,7 @@ def test_prepare_evaluation(eval_api_fixture, demo_model_fixture):
         cuda=False,
     )
     assert len(annotations_dataframe) == 50
-    assert len(annotations_dataframe.columns) == 50
+    assert len(annotations_dataframe.columns) == 79
     assert kwargs == {"gt_column_name": "face_bbox"}
 
     task_name = "body_parts_detection"
@@ -490,14 +490,14 @@ def test_prepare_evaluation(eval_api_fixture, demo_model_fixture):
         cuda=False,
     )
     assert len(annotations_dataframe) == 50
-    assert len(annotations_dataframe.columns) == 50
+    assert len(annotations_dataframe.columns) == 79
     assert list(kwargs.keys()) == [
         "gt_column_name",
         "img_filepath_gt_bboxes",
     ]
     assert kwargs["gt_column_name"] is None
     assert isinstance(kwargs["img_filepath_gt_bboxes"], dict)
-    assert len(kwargs["img_filepath_gt_bboxes"]) == 50
+    assert len(kwargs["img_filepath_gt_bboxes"]) == 49
     for img_fp, gt_bboxes in kwargs["img_filepath_gt_bboxes"].items():
         assert len(gt_bboxes) in [1, 2]
         for gt_bbox in gt_bboxes:
@@ -542,7 +542,7 @@ def test_prepare_evaluation(eval_api_fixture, demo_model_fixture):
         cuda=False,
     )
     assert len(annotations_dataframe) == 50
-    assert len(annotations_dataframe.columns) == 50
+    assert len(annotations_dataframe.columns) == 79
     assert kwargs == {"to_rle": True, "gt_column_name": "person_mask"}
 
     task_name = "face_super_resolution"
