@@ -57,7 +57,6 @@ def get_eval_api(
     Return:
         The evaluation API class instance.
     """
-    print("processed_data_dir: ", processed_data_dir)
     annotations_csv_fp = os.path.join(
         processed_data_dir,
         dataset_name,
