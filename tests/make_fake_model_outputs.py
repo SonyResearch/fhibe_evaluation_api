@@ -59,7 +59,7 @@ def make_fake_model_outputs(task_name: str, model_name: str, use_mini_dataset: b
 
 
 if __name__ == "__main__":
-    task_name = "face_super_resolution"
-    model_name = "face_super_resolution_test_model"
+    task_name = "body_parts_detection"
+    model_name = "body_parts_detector_test_model"
     use_mini_dataset = True
     make_fake_model_outputs(task_name, model_name, use_mini_dataset)
