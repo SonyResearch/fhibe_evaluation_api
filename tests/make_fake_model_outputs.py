@@ -31,6 +31,7 @@ def make_fake_model_outputs(task_name: str, model_name: str, use_mini_dataset: b
         "ground_truth",
         "fixed_model_outputs.json",
     )
+    print(model_outputs_fp)
     # Load json
     with open(model_outputs_fp, "r") as f:
         model_outputs = json.load(f)
@@ -59,7 +60,7 @@ def make_fake_model_outputs(task_name: str, model_name: str, use_mini_dataset: b
 
 
 if __name__ == "__main__":
-    task_name = "body_parts_detection"
-    model_name = "body_parts_detector_test_model"
+    task_name = "face_parsing"
+    model_name = "face_parser_test_model"
     use_mini_dataset = True
     make_fake_model_outputs(task_name, model_name, use_mini_dataset)

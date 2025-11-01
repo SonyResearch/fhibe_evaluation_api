@@ -647,7 +647,6 @@ def test_f1_score_parsing(prepare_task_fixture):
             "pronoun",
             "age",
             "apparent_skin_color",
-            "apparent_skin_color_hue_lum",
         ],
         filepaths=img_filepaths,
         model_outputs=model_outputs,
@@ -661,12 +660,12 @@ def test_f1_score_parsing(prepare_task_fixture):
     # cleanup
     if os.path.isfile(f1_scores_filename):
         os.remove(f1_scores_filename)
-
-    assert len(grouped_results_dict) == 15
-    multi_dim_sc_dict = grouped_results_dict["['apparent_skin_color_hue_lum']"]
-    assert len(multi_dim_sc_dict) == 4
-    assert "['dark_red']" in multi_dim_sc_dict
-    assert "['light_yellow']" in multi_dim_sc_dict
+    assert len(grouped_results_dict) == 7
+    pronoun_dict = grouped_results_dict["['pronoun']"]
+    assert len(pronoun_dict) == 3
+    assert "['0. She/her/hers']" in pronoun_dict
+    assert "['1. He/him/his']" in pronoun_dict
+    assert "['2. They/them/their']" in pronoun_dict
     age_subdict = grouped_results_dict["['age']"]
     assert len(age_subdict) == 5
     old_subdict = age_subdict["['[60, +]']"]
