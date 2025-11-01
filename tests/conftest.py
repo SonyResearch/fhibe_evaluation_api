@@ -237,9 +237,11 @@ def bias_report_fixture():
         data_rootdir = os.path.join(CURRENT_DIR, "static", "data")
         results_base_dir = os.path.join(CURRENT_DIR, "static", "results")
         use_mini_dataset = True
+        dataset_version = "testing"
         bias_report = BiasReport(
             model_name=model_name,
             task_name=task_name,
+            dataset_version=dataset_version,
             data_rootdir=data_rootdir,
             results_base_dir=results_base_dir,
             dataset_name=dataset_name,

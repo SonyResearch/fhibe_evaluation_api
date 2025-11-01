@@ -13,7 +13,7 @@ def make_fake_face_images(dataframe):
     # Save fake png images to tests/static/data/images_faces/ with the correct prefixes
     # and of the correct shape
     fake_base_path = os.path.join(CURRENT_DIR, "static")
-    image_shape = (512, 512, 3)
+    image_shape = (24, 24, 3)
     for fp in dataframe.filepath:
         random_array = np.random.randint(0, 255, size=image_shape, dtype=np.uint8)
         fake_full_path = os.path.join(fake_base_path, fp)

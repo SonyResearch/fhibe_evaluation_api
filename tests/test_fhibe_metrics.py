@@ -497,9 +497,8 @@ def test_lpips_face_super_resolution(prepare_task_fixture):
     assert len(scene_subdict) == 9
     assert "['3. Outdoor: Man-made elements']" in scene_subdict
     man_made_dict = scene_subdict["['3. Outdoor: Man-made elements']"]
-    print(man_made_dict["scores"])
     assert man_made_dict["scores"] == pytest.approx(
-        [0.4467528164386749, 0.43641766905784607, 0.43755948543548584]
+        [0.8918377757072449, 0.8647667169570923, 0.8915453553199768]
     )
     assert man_made_dict["Class_Size"] == 3
     assert np.mean(man_made_dict["scores"]) == pytest.approx(man_made_dict["LPIPS"])
