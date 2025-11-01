@@ -274,9 +274,9 @@ def test_plot_metric_by_intersectional_group(bias_report_fixture, demo_model_fix
     report = bias_report_fixture(task_name, results_dir)
 
     bar_height_dict = {
-        "pronoun": [0.895238095238095, 0.9344827586206896],
-        "age": [0.9199999999999999, 0.9222222222222223, 0.9, 0.9],
-        "ancestry": [0.9233333333333332, 0.9157894736842106, 0.9, 1.0],
+        "pronoun": [0.8863636363636364, 0.9428571428571427, 0.8],
+        "age": [0.909375, 0.94, 0.9142857142857144, 0.95, 0.95],
+        "ancestry": [0.9291666666666666, 0.908, 0.925],
     }
     for attr_name in ["pronoun", "age", "ancestry"]:
         fig_savedir = os.path.join(
@@ -327,12 +327,7 @@ def test_plot_metric_by_intersectional_group(bias_report_fixture, demo_model_fix
 
     bar_height_dict = {
         "pronoun": [0.8714285714285714, 0.9517241379310343],
-        "age": [
-            0.9342857142857142,
-            0.9222222222222223,
-            0.7000000000000001,
-            0.9333333333333332,
-        ],
+        "age": [0.9342857142857142, 0.9222222222, 0.7, 0.9333333333333332],
         "ancestry": [0.9233333333333332, 0.9421052631578947, 0.7333333333333334, 0.9],
     }
     for attr_name in ["pronoun", "age", "ancestry"]:
@@ -384,15 +379,20 @@ def test_plot_metric_by_intersectional_group(bias_report_fixture, demo_model_fix
     )
     report = bias_report_fixture(task_name, results_dir)
     bar_height_dict = {
-        "pronoun": [0.6380952380952382, 0.5103448275862068, 0.3, 0.2666666666666667],
+        "pronoun": [
+            0.5772727272727273,
+            0.5535714285714286,
+            1.0,
+            0.16,
+            0.33076923076923076,
+            1.0,
+        ],
         "ancestry": [
-            0.5133333333333333,
-            0.6947368421052632,
-            0.5333333333333333,
-            0.0,
-            0.2518518518518519,
-            0.39444444444444443,
-            0.0,
+            0.6208333333333333,
+            0.512,
+            0.6,
+            0.2833333333333334,
+            0.22727272727272727,
             0.0,
         ],
     }
