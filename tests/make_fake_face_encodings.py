@@ -23,7 +23,7 @@ def make_fake_face_encodings(dataframe):
         "face_encodings",
     )
     os.makedirs(fake_encoding_dir, exist_ok=True)
-    image_shape = (512, 512, 3)
+    image_shape = (24, 24, 3)
     for fp in dataframe.filepath:
         basename = os.path.basename(fp)
         fake_full_path = os.path.join(fake_encoding_dir, basename)

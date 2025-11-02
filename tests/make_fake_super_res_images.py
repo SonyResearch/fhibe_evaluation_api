@@ -22,11 +22,11 @@ def make_fake_face_images(dataframe):
         "face_super_resolution_test_model",
         "fixed_super_resolution_files",
     )
-    image_shape = (512, 512, 3)
+    image_shape = (24, 24, 3)
     for fp in dataframe.filepath:
         random_array = np.random.randint(0, 255, size=image_shape, dtype=np.uint8)
         image_id = fp.split("/")[-1].split(".png")[0]
-        fake_full_path = os.path.join(fake_base_path, f"super_{image_id}.png")
+        fake_full_path = os.path.join(fake_base_path, f"{image_id}.png")
         parent_dir = os.path.dirname(fake_full_path)
         os.makedirs(parent_dir, exist_ok=True)
         img = Image.fromarray(random_array)

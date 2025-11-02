@@ -23,7 +23,7 @@ def make_fake_face_masks(dataframe):
         "CelebAMask-HQ_format",
     )
     os.makedirs(fake_base_path, exist_ok=True)
-    image_shape = (512, 512)
+    image_shape = (24, 24)
     for image_id in dataframe.image_id:
         random_array = np.random.randint(0, 19, size=image_shape, dtype=np.uint8)
         fake_full_path = os.path.join(fake_base_path, image_id, "combined.png")
