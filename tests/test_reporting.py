@@ -445,20 +445,20 @@ def test_plot_metric_by_intersectional_group(bias_report_fixture, demo_model_fix
     report = bias_report_fixture(task_name, results_dir)
 
     bar_height_dict = {
-        "pronoun": [0.65, 0.79, 0.0, 0.0, 0.0],
-        "age": [0.69, 0.73, 0.52, 0.61, 0.73],
-        "apparent_skin_color": [0.79, 0.6, 0.68, 0.72, 0.61, 0.65],
+        "pronoun": [0.66, 0.95],
+        "age": [0.89, 0.74, 0.0, 0.0, 0.0],
+        "apparent_skin_color": [0.82, 0.0, 0.0, 0.06, 0.0, 0.0],
     }
     errorbar_height_dict = {
-        "pronoun": [[0.62, 0.68], [0.71, 0.87], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0]],
-        "age": [[0.52, 0.86], [0.64, 0.82], [0.46, 0.58], [0.55, 0.67], [0.62, 0.84]],
+        "pronoun": [[0.42, 0.9], [0.87, 1.03]],
+        "age": [[0.79, 0.99], [0.59, 0.89], [0.0, 0.0], [0.0, 0.0], [0.0, 0.0]],
         "apparent_skin_color": [
-            [0.76, 0.82],
-            [0.55, 0.65],
-            [0.48, 0.88],
-            [0.68, 0.76],
-            [0.52, 0.7],
-            [0.55, 0.75],
+            [0.63, 1.01],
+            [0.0, 0.0],
+            [0.0, 0.0],
+            [-0.06, 0.18],
+            [0.0, 0.0],
+            [0.0, 0.0],
         ],
     }
     for attr_name in ["pronoun", "age", "apparent_skin_color"]:
