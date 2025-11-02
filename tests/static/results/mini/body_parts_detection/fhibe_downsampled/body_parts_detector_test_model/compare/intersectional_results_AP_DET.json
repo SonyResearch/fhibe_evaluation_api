@@ -1,0 +1,3665 @@
+{
+    "['0. She/her/hers']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.98,
+            "All": 0.99
+        },
+        "Class_Size": {
+            "Face": 33,
+            "Hand": 33
+        }
+    },
+    "['1. He/him/his']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.88,
+            "All": 0.94
+        },
+        "Class_Size": {
+            "Face": 17,
+            "Hand": 17
+        }
+    },
+    "[18, 30)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.95,
+            "All": 0.98
+        },
+        "Class_Size": {
+            "Face": 11,
+            "Hand": 11
+        }
+    },
+    "[30, 40)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.93,
+            "All": 0.97
+        },
+        "Class_Size": {
+            "Face": 22,
+            "Hand": 22
+        }
+    },
+    "[40, 50)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.98,
+            "All": 0.99
+        },
+        "Class_Size": {
+            "Face": 9,
+            "Hand": 9
+        }
+    },
+    "[50, 60)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 6,
+            "Hand": 6
+        }
+    },
+    "[60, +]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.98,
+            "All": 0.99
+        },
+        "Class_Size": {
+            "Face": 8,
+            "Hand": 8
+        }
+    },
+    "1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 8,
+            "Hand": 8
+        }
+    },
+    "2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 9,
+            "Hand": 9
+        }
+    },
+    "3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.76,
+            "All": 0.88
+        },
+        "Class_Size": {
+            "Face": 8,
+            "Hand": 8
+        }
+    },
+    "4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 12,
+            "Hand": 12
+        }
+    },
+    "['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.67,
+            "All": 0.84
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.65,
+            "All": 0.82
+        },
+        "Class_Size": {
+            "Face": 7,
+            "Hand": 7
+        }
+    },
+    "['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 7,
+            "Hand": 7
+        }
+    },
+    "['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.93,
+            "All": 0.97
+        },
+        "Class_Size": {
+            "Face": 8,
+            "Hand": 8
+        }
+    },
+    "['0. She/her/hers'], [30, 40)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 15,
+            "Hand": 15
+        }
+    },
+    "['0. She/her/hers'], [40, 50)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.98,
+            "All": 0.99
+        },
+        "Class_Size": {
+            "Face": 8,
+            "Hand": 8
+        }
+    },
+    "['0. She/her/hers'], [50, 60)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [18, 30)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['1. He/him/his'], [30, 40)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.66,
+            "All": 0.83
+        },
+        "Class_Size": {
+            "Face": 7,
+            "Hand": 7
+        }
+    },
+    "['1. He/him/his'], [40, 50)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [50, 60)": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "['1. He/him/his'], [60, +]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.93,
+            "All": 0.97
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 7,
+            "Hand": 7
+        }
+    },
+    "['0. She/her/hers'], 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.89,
+            "All": 0.94
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 10,
+            "Hand": 10
+        }
+    },
+    "['1. He/him/his'], 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['1. He/him/his'], 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['1. He/him/his'], 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.56,
+            "All": 0.78
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['1. He/him/his'], 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.9,
+            "All": 0.95
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "['1. He/him/his'], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.33,
+            "All": 0.66
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[18, 30), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[18, 30), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "[18, 30), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "[30, 40), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.59,
+            "All": 0.8
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "[30, 40), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 9,
+            "Hand": 9
+        }
+    },
+    "[40, 50), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.9,
+            "All": 0.95
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[40, 50), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "[40, 50), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "[50, 60), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[60, +], 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[60, +], 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "[18, 30), ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.12,
+            "All": 0.56
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[18, 30), ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "[30, 40), ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.33,
+            "All": 0.66
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "[30, 40), ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "[40, 50), ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[50, 60), ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[60, +], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[60, +], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.67,
+            "All": 0.84
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "0. [102, 78, 65], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "0. [102, 78, 65], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "1. [136, 105, 81], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "1. [136, 105, 81], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "1. [136, 105, 81], ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "2. [164, 131, 103], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "2. [164, 131, 103], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "2. [164, 131, 103], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "2. [164, 131, 103], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "3. [175, 148, 120], ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.58,
+            "All": 0.79
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "3. [175, 148, 120], ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "3. [175, 148, 120], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "3. [175, 148, 120], ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "4. [189, 163, 137], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "4. [189, 163, 137], ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "4. [189, 163, 137], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "5. [198, 180, 157], ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "5. [198, 180, 157], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "5. [198, 180, 157], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "5. [198, 180, 157], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "5. [198, 180, 157], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 8,
+            "Hand": 8
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.9,
+            "All": 0.95
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 4,
+            "Hand": 4
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [50, 60), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [50, 60), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [18, 30), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [18, 30), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 3. [175, 148, 120]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.56,
+            "All": 0.78
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['1. He/him/his'], [30, 40), 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [40, 50), 5. [198, 180, 157]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [50, 60), 0. [102, 78, 65]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['1. He/him/his'], [50, 60), 1. [136, 105, 81]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [60, +], 2. [164, 131, 103]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [60, +], 4. [189, 163, 137]": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.12,
+            "All": 0.56
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [18, 30), ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [30, 40), ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['0. She/her/hers'], [40, 50), ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [50, 60), ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [50, 60), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [18, 30), ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "['1. He/him/his'], [30, 40), ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.33,
+            "All": 0.66
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [30, 40), ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [40, 50), ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [50, 60), ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [50, 60), ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [50, 60), ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [60, +], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [60, +], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 0. [102, 78, 65], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 1. [136, 105, 81], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 1. [136, 105, 81], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 2. [164, 131, 103], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 2. [164, 131, 103], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 2. [164, 131, 103], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 3. [175, 148, 120], ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.8,
+            "All": 0.9
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 3. [175, 148, 120], ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 3. [175, 148, 120], ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 4. [189, 163, 137], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 4. [189, 163, 137], ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 5. [198, 180, 157], ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], 5. [198, 180, 157], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], 5. [198, 180, 157], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], 5. [198, 180, 157], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 0. [102, 78, 65], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 1. [136, 105, 81], ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 2. [164, 131, 103], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.33,
+            "All": 0.66
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], 3. [175, 148, 120], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 4. [189, 163, 137], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 5. [198, 180, 157], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], 5. [198, 180, 157], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 0. [102, 78, 65], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[18, 30), 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[18, 30), 1. [136, 105, 81], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 1. [136, 105, 81], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 2. [164, 131, 103], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 5. [198, 180, 157], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[18, 30), 5. [198, 180, 157], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 1. [136, 105, 81], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 1. [136, 105, 81], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), 3. [175, 148, 120], ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.33,
+            "All": 0.66
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[30, 40), 3. [175, 148, 120], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 3. [175, 148, 120], ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 4. [189, 163, 137], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 4. [189, 163, 137], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 5. [198, 180, 157], ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "[30, 40), 5. [198, 180, 157], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[30, 40), 5. [198, 180, 157], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 3,
+            "Hand": 3
+        }
+    },
+    "[40, 50), 0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 0. [102, 78, 65], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 2. [164, 131, 103], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[40, 50), 2. [164, 131, 103], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 4. [189, 163, 137], ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[40, 50), 5. [198, 180, 157], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "[50, 60), 1. [136, 105, 81], ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 2. [164, 131, 103], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[50, 60), 3. [175, 148, 120], ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[60, +], 2. [164, 131, 103], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "[60, +], 4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 1. [136, 105, 81], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 1. [136, 105, 81], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 2. [164, 131, 103], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 5. [198, 180, 157], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [18, 30), 5. [198, 180, 157], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 1. [136, 105, 81], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 1. [136, 105, 81], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 3. [175, 148, 120], ['0. Africa', '17. Europe', '21. Western Europe', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 3. [175, 148, 120], ['6. Americas', '9. South America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 4. [189, 163, 137], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 5. [198, 180, 157], ['0. Africa', '1. Northern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 5,
+            "Hand": 5
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 5. [198, 180, 157], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [30, 40), 5. [198, 180, 157], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.0,
+            "All": 0.5
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 0. [102, 78, 65], ['0. Africa', '5. Western Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 2. [164, 131, 103], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 2. [164, 131, 103], ['17. Europe', '18. Eastern Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [40, 50), 4. [189, 163, 137], ['19. Northern Europe', '6. Americas', '10. Northern America', '21. Western Europe', '17. Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [50, 60), 2. [164, 131, 103], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['0. She/her/hers'], [50, 60), 3. [175, 148, 120], ['13. Eastern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [18, 30), 0. [102, 78, 65], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [18, 30), 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 1. [136, 105, 81], ['0. Africa', '3. Middle Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 2. [164, 131, 103], ['22. Oceania', '23. Australia and New Zealand']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 3. [175, 148, 120], ['11. Asia', '14. South-eastern Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 0.33,
+            "All": 0.66
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [30, 40), 3. [175, 148, 120], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 4. [189, 163, 137], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [30, 40), 5. [198, 180, 157], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [40, 50), 5. [198, 180, 157], ['6. Americas', '8. Central America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [50, 60), 0. [102, 78, 65], ['0. Africa', '2. Eastern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [50, 60), 0. [102, 78, 65], ['0. Africa', '4. Southern Africa']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 2,
+            "Hand": 2
+        }
+    },
+    "['1. He/him/his'], [50, 60), 1. [136, 105, 81], ['15. Southern Asia', '11. Asia']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [60, +], 2. [164, 131, 103], ['17. Europe', '21. Western Europe']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    },
+    "['1. He/him/his'], [60, +], 4. [189, 163, 137], ['6. Americas', '10. Northern America']": {
+        "AP_DET": {
+            "Face": 1.0,
+            "Hand": 1.0,
+            "All": 1.0
+        },
+        "Class_Size": {
+            "Face": 1,
+            "Hand": 1
+        }
+    }
+}

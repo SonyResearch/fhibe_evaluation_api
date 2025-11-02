@@ -1,0 +1,2097 @@
+{
+    "['pronoun']": {
+        "['0. She/her/hers']": {
+            "VAL": 0.66,
+            "VAL_Error": 0.24,
+            "Class_Size": 98,
+            "Identities": 46,
+            "Same / Different Pairs": "59/3000"
+        },
+        "['1. He/him/his']": {
+            "VAL": 0.95,
+            "VAL_Error": 0.08,
+            "Class_Size": 110,
+            "Identities": 50,
+            "Same / Different Pairs": "70/3000"
+        }
+    },
+    "['age']": {
+        "['[18, 30)']": {
+            "VAL": 0.89,
+            "VAL_Error": 0.1,
+            "Class_Size": 96,
+            "Identities": 45,
+            "Same / Different Pairs": "57/3000"
+        },
+        "['[30, 40)']": {
+            "VAL": 0.74,
+            "VAL_Error": 0.15,
+            "Class_Size": 60,
+            "Identities": 27,
+            "Same / Different Pairs": "39/1731"
+        },
+        "['[40, 50)']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 22,
+            "Identities": 10,
+            "Same / Different Pairs": "14/217"
+        },
+        "['[50, 60)']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 18,
+            "Identities": 8,
+            "Same / Different Pairs": "13/140"
+        },
+        "['[60, +]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        }
+    },
+    "['ancestry']": {
+        "['0. Africa']": {
+            "VAL": 0.8,
+            "VAL_Error": 0.13,
+            "Class_Size": 120,
+            "Identities": 55,
+            "Same / Different Pairs": "76/3000"
+        },
+        "['2. Eastern Africa']": {
+            "VAL": 0.03,
+            "VAL_Error": 0.1,
+            "Class_Size": 29,
+            "Identities": 13,
+            "Same / Different Pairs": "19/387"
+        },
+        "['3. Middle Africa']": {
+            "VAL": 0.53,
+            "VAL_Error": 0.39,
+            "Class_Size": 36,
+            "Identities": 17,
+            "Same / Different Pairs": "21/609"
+        },
+        "['4. Southern Africa']": {
+            "VAL": 0.11,
+            "VAL_Error": 0.16,
+            "Class_Size": 35,
+            "Identities": 16,
+            "Same / Different Pairs": "23/572"
+        },
+        "['5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 20,
+            "Identities": 9,
+            "Same / Different Pairs": "13/177"
+        },
+        "['6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 22,
+            "Identities": 9,
+            "Same / Different Pairs": "17/214"
+        },
+        "['9. South America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "9/57"
+        },
+        "['10. Northern America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['11. Asia']": {
+            "VAL": 0.8,
+            "VAL_Error": 0.33,
+            "Class_Size": 57,
+            "Identities": 27,
+            "Same / Different Pairs": "33/1563"
+        },
+        "['14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 29,
+            "Identities": 14,
+            "Same / Different Pairs": "16/390"
+        },
+        "['15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 23,
+            "Identities": 11,
+            "Same / Different Pairs": "13/240"
+        },
+        "['17. Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 17,
+            "Identities": 8,
+            "Same / Different Pairs": "10/126"
+        },
+        "['18. Eastern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['19. Northern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['20. Southern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['21. Western Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['22. Oceania']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['23. Australia and New Zealand']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        }
+    },
+    "['apparent_skin_color']": {
+        "['0. [102, 78, 65]']": {
+            "VAL": 0.82,
+            "VAL_Error": 0.19,
+            "Class_Size": 72,
+            "Identities": 33,
+            "Same / Different Pairs": "46/2510"
+        },
+        "['1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 26,
+            "Identities": 12,
+            "Same / Different Pairs": "16/309"
+        },
+        "['2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 6,
+            "Same / Different Pairs": "6/60"
+        },
+        "['3. [175, 148, 120]']": {
+            "VAL": 0.06,
+            "VAL_Error": 0.12,
+            "Class_Size": 29,
+            "Identities": 13,
+            "Same / Different Pairs": "19/387"
+        },
+        "['4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 7,
+            "Same / Different Pairs": "7/84"
+        },
+        "['5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "10/81"
+        }
+    },
+    "['pronoun', 'age']": {
+        "['0. She/her/hers', '[18, 30)']": {
+            "VAL": 0.12,
+            "VAL_Error": 0.21,
+            "Class_Size": 41,
+            "Identities": 20,
+            "Same / Different Pairs": "22/798"
+        },
+        "['0. She/her/hers', '[30, 40)']": {
+            "VAL": 0.1,
+            "VAL_Error": 0.3,
+            "Class_Size": 28,
+            "Identities": 13,
+            "Same / Different Pairs": "17/361"
+        },
+        "['0. She/her/hers', '[40, 50)']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['0. She/her/hers', '[50, 60)']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "9/36"
+        },
+        "['0. She/her/hers', '[60, +]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[18, 30)']": {
+            "VAL": 0.55,
+            "VAL_Error": 0.26,
+            "Class_Size": 50,
+            "Identities": 23,
+            "Same / Different Pairs": "31/1194"
+        },
+        "['1. He/him/his', '[30, 40)']": {
+            "VAL": 0.12,
+            "VAL_Error": 0.22,
+            "Class_Size": 31,
+            "Identities": 14,
+            "Same / Different Pairs": "20/445"
+        },
+        "['1. He/him/his', '[40, 50)']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "10/81"
+        },
+        "['1. He/him/his', '[50, 60)']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        }
+    },
+    "['pronoun', 'ancestry']": {
+        "['0. She/her/hers', '0. Africa']": {
+            "VAL": 0.4,
+            "VAL_Error": 0.33,
+            "Class_Size": 50,
+            "Identities": 23,
+            "Same / Different Pairs": "32/1193"
+        },
+        "['0. She/her/hers', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 13,
+            "Identities": 6,
+            "Same / Different Pairs": "8/70"
+        },
+        "['0. She/her/hers', '3. Middle Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 25,
+            "Identities": 11,
+            "Same / Different Pairs": "18/282"
+        },
+        "['0. She/her/hers', '5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "10/81"
+        },
+        "['0. She/her/hers', '9. South America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['0. She/her/hers', '10. Northern America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['0. She/her/hers', '11. Asia']": {
+            "VAL": 0.04,
+            "VAL_Error": 0.11,
+            "Class_Size": 27,
+            "Identities": 13,
+            "Same / Different Pairs": "15/336"
+        },
+        "['0. She/her/hers', '14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 21,
+            "Identities": 10,
+            "Same / Different Pairs": "12/198"
+        },
+        "['0. She/her/hers', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '17. Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 17,
+            "Identities": 8,
+            "Same / Different Pairs": "10/126"
+        },
+        "['0. She/her/hers', '18. Eastern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '19. Northern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '20. Southern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['0. She/her/hers', '21. Western Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '0. Africa']": {
+            "VAL": 0.81,
+            "VAL_Error": 0.15,
+            "Class_Size": 69,
+            "Identities": 32,
+            "Same / Different Pairs": "42/2304"
+        },
+        "['1. He/him/his', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 16,
+            "Identities": 7,
+            "Same / Different Pairs": "11/109"
+        },
+        "['1. He/him/his', '3. Middle Africa']": {
+            "VAL": 0.28,
+            "VAL_Error": 0.39,
+            "Class_Size": 29,
+            "Identities": 14,
+            "Same / Different Pairs": "16/390"
+        },
+        "['1. He/him/his', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 5,
+            "Same / Different Pairs": "5/40"
+        },
+        "['1. He/him/his', '5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "10/81"
+        },
+        "['1. He/him/his', '6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['1. He/him/his', '9. South America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 26,
+            "Identities": 12,
+            "Same / Different Pairs": "16/309"
+        },
+        "['1. He/him/his', '14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['1. He/him/his', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 15,
+            "Identities": 7,
+            "Same / Different Pairs": "9/96"
+        },
+        "['1. He/him/his', '22. Oceania']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['1. He/him/his', '23. Australia and New Zealand']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        }
+    },
+    "['pronoun', 'apparent_skin_color']": {
+        "['0. She/her/hers', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 20,
+            "Identities": 9,
+            "Same / Different Pairs": "14/176"
+        },
+        "['0. She/her/hers', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['0. She/her/hers', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 13,
+            "Identities": 6,
+            "Same / Different Pairs": "8/70"
+        },
+        "['0. She/her/hers', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 6,
+            "Same / Different Pairs": "6/60"
+        },
+        "['0. She/her/hers', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['1. He/him/his', '0. [102, 78, 65]']": {
+            "VAL": 0.56,
+            "VAL_Error": 0.46,
+            "Class_Size": 51,
+            "Identities": 24,
+            "Same / Different Pairs": "30/1245"
+        },
+        "['1. He/him/his', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 18,
+            "Identities": 8,
+            "Same / Different Pairs": "12/141"
+        },
+        "['1. He/him/his', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 16,
+            "Identities": 7,
+            "Same / Different Pairs": "11/109"
+        },
+        "['1. He/him/his', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        }
+    },
+    "['age', 'ancestry']": {
+        "['[18, 30)', '0. Africa']": {
+            "VAL": 0.48,
+            "VAL_Error": 0.36,
+            "Class_Size": 56,
+            "Identities": 26,
+            "Same / Different Pairs": "34/1506"
+        },
+        "['[18, 30)', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 13,
+            "Identities": 6,
+            "Same / Different Pairs": "8/70"
+        },
+        "['[18, 30)', '3. Middle Africa']": {
+            "VAL": 0.12,
+            "VAL_Error": 0.22,
+            "Class_Size": 24,
+            "Identities": 11,
+            "Same / Different Pairs": "15/261"
+        },
+        "['[18, 30)', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 15,
+            "Identities": 7,
+            "Same / Different Pairs": "9/96"
+        },
+        "['[18, 30)', '5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '11. Asia']": {
+            "VAL": 0.24,
+            "VAL_Error": 0.22,
+            "Class_Size": 40,
+            "Identities": 19,
+            "Same / Different Pairs": "23/757"
+        },
+        "['[18, 30)', '14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 22,
+            "Identities": 11,
+            "Same / Different Pairs": "11/220"
+        },
+        "['[18, 30)', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 13,
+            "Identities": 6,
+            "Same / Different Pairs": "8/70"
+        },
+        "['[30, 40)', '0. Africa']": {
+            "VAL": 0.17,
+            "VAL_Error": 0.33,
+            "Class_Size": 31,
+            "Identities": 14,
+            "Same / Different Pairs": "20/445"
+        },
+        "['[30, 40)', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['[30, 40)', '3. Middle Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 5,
+            "Same / Different Pairs": "5/40"
+        },
+        "['[30, 40)', '5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "9/57"
+        },
+        "['[30, 40)', '6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['[30, 40)', '10. Northern America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['[30, 40)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['[30, 40)', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['[30, 40)', '17. Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['[30, 40)', '20. Southern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[30, 40)', '22. Oceania']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['[30, 40)', '23. Australia and New Zealand']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['[40, 50)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['[40, 50)', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[40, 50)', '6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['[40, 50)', '9. South America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['[40, 50)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[40, 50)', '14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[50, 60)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "10/56"
+        },
+        "['[50, 60)', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "9/36"
+        },
+        "['[50, 60)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[50, 60)', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[60, +]', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        }
+    },
+    "['age', 'apparent_skin_color']": {
+        "['[18, 30)', '0. [102, 78, 65]']": {
+            "VAL": 0.21,
+            "VAL_Error": 0.27,
+            "Class_Size": 31,
+            "Identities": 14,
+            "Same / Different Pairs": "20/445"
+        },
+        "['[18, 30)', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['[18, 30)', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['[18, 30)', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 17,
+            "Identities": 8,
+            "Same / Different Pairs": "10/126"
+        },
+        "['[18, 30)', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[30, 40)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 6,
+            "Same / Different Pairs": "6/60"
+        },
+        "['[30, 40)', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "10/81"
+        },
+        "['[30, 40)', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['[30, 40)', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "8/37"
+        },
+        "['[40, 50)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['[40, 50)', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['[50, 60)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "11/80"
+        },
+        "['[60, +]', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        }
+    },
+    "['ancestry', 'apparent_skin_color']": {
+        "['0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.82,
+            "VAL_Error": 0.18,
+            "Class_Size": 70,
+            "Identities": 32,
+            "Same / Different Pairs": "45/2370"
+        },
+        "['0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 24,
+            "Identities": 11,
+            "Same / Different Pairs": "15/261"
+        },
+        "['0. Africa', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 18,
+            "Identities": 8,
+            "Same / Different Pairs": "12/141"
+        },
+        "['2. Eastern Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.13,
+            "VAL_Error": 0.31,
+            "Class_Size": 28,
+            "Identities": 13,
+            "Same / Different Pairs": "17/361"
+        },
+        "['3. Middle Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 18,
+            "Identities": 8,
+            "Same / Different Pairs": "13/140"
+        },
+        "['4. Southern Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['5. Western Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['5. Western Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "8/37"
+        },
+        "['6. Americas', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['6. Americas', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['9. South America', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['9. South America', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['11. Asia', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 22,
+            "Identities": 10,
+            "Same / Different Pairs": "14/217"
+        },
+        "['11. Asia', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['11. Asia', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['14. South-eastern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 13,
+            "Identities": 6,
+            "Same / Different Pairs": "8/70"
+        },
+        "['14. South-eastern Asia', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['15. Southern Asia', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['15. Southern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['17. Europe', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['20. Southern Europe', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['22. Oceania', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['23. Australia and New Zealand', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        }
+    },
+    "['pronoun', 'age', 'ancestry']": {
+        "['0. She/her/hers', '[18, 30)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 23,
+            "Identities": 11,
+            "Same / Different Pairs": "13/240"
+        },
+        "['0. She/her/hers', '[18, 30)', '3. Middle Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '[18, 30)', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 11,
+            "Identities": 5,
+            "Same / Different Pairs": "7/48"
+        },
+        "['0. She/her/hers', '[18, 30)', '5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 18,
+            "Identities": 9,
+            "Same / Different Pairs": "9/144"
+        },
+        "['0. She/her/hers', '[18, 30)', '14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 16,
+            "Identities": 8,
+            "Same / Different Pairs": "8/112"
+        },
+        "['0. She/her/hers', '[30, 40)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['0. She/her/hers', '[30, 40)', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['0. She/her/hers', '[30, 40)', '6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['0. She/her/hers', '[30, 40)', '10. Northern America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['0. She/her/hers', '[30, 40)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[30, 40)', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[30, 40)', '17. Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['0. She/her/hers', '[30, 40)', '20. Southern Europe']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[40, 50)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[40, 50)', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[50, 60)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "8/20"
+        },
+        "['0. She/her/hers', '[50, 60)', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 2,
+            "Same / Different Pairs": "7/8"
+        },
+        "['1. He/him/his', '[18, 30)', '0. Africa']": {
+            "VAL": 0.39,
+            "VAL_Error": 0.39,
+            "Class_Size": 32,
+            "Identities": 15,
+            "Same / Different Pairs": "19/477"
+        },
+        "['1. He/him/his', '[18, 30)', '2. Eastern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 11,
+            "Identities": 5,
+            "Same / Different Pairs": "7/48"
+        },
+        "['1. He/him/his', '[18, 30)', '3. Middle Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 17,
+            "Identities": 8,
+            "Same / Different Pairs": "10/126"
+        },
+        "['1. He/him/his', '[18, 30)', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 18,
+            "Identities": 8,
+            "Same / Different Pairs": "12/141"
+        },
+        "['1. He/him/his', '[18, 30)', '14. South-eastern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['1. He/him/his', '[18, 30)', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['1. He/him/his', '[30, 40)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 22,
+            "Identities": 10,
+            "Same / Different Pairs": "14/217"
+        },
+        "['1. He/him/his', '[30, 40)', '3. Middle Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 5,
+            "Same / Different Pairs": "5/40"
+        },
+        "['1. He/him/his', '[30, 40)', '5. Western Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "8/37"
+        },
+        "['1. He/him/his', '[30, 40)', '22. Oceania']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['1. He/him/his', '[30, 40)', '23. Australia and New Zealand']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['1. He/him/his', '[40, 50)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[40, 50)', '6. Americas']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['1. He/him/his', '[40, 50)', '9. South America']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[50, 60)', '0. Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[50, 60)', '4. Southern Africa']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[50, 60)', '11. Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[50, 60)', '15. Southern Asia']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        }
+    },
+    "['pronoun', 'age', 'apparent_skin_color']": {
+        "['0. She/her/hers', '[18, 30)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['0. She/her/hers', '[18, 30)', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[30, 40)', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '[30, 40)', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['0. She/her/hers', '[40, 50)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[50, 60)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "8/20"
+        },
+        "['1. He/him/his', '[18, 30)', '0. [102, 78, 65]']": {
+            "VAL": 0.1,
+            "VAL_Error": 0.19,
+            "Class_Size": 26,
+            "Identities": 12,
+            "Same / Different Pairs": "16/309"
+        },
+        "['1. He/him/his', '[18, 30)', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['1. He/him/his', '[30, 40)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 5,
+            "Same / Different Pairs": "5/40"
+        },
+        "['1. He/him/his', '[30, 40)', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "9/57"
+        },
+        "['1. He/him/his', '[30, 40)', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[40, 50)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[40, 50)', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['1. He/him/his', '[50, 60)', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        }
+    },
+    "['pronoun', 'ancestry', 'apparent_skin_color']": {
+        "['0. She/her/hers', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 20,
+            "Identities": 9,
+            "Same / Different Pairs": "14/176"
+        },
+        "['0. She/her/hers', '0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['0. She/her/hers', '0. Africa', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '2. Eastern Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "8/20"
+        },
+        "['0. She/her/hers', '4. Southern Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '6. Americas', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '9. South America', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 11,
+            "Identities": 5,
+            "Same / Different Pairs": "7/48"
+        },
+        "['0. She/her/hers', '11. Asia', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '14. South-eastern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['0. She/her/hers', '17. Europe', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '20. Southern Europe', '4. [189, 163, 137]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.89,
+            "VAL_Error": 0.25,
+            "Class_Size": 49,
+            "Identities": 23,
+            "Same / Different Pairs": "29/1147"
+        },
+        "['1. He/him/his', '0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 16,
+            "Identities": 7,
+            "Same / Different Pairs": "11/109"
+        },
+        "['1. He/him/his', '2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "9/57"
+        },
+        "['1. He/him/his', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.12,
+            "VAL_Error": 0.33,
+            "Class_Size": 23,
+            "Identities": 11,
+            "Same / Different Pairs": "13/240"
+        },
+        "['1. He/him/his', '3. Middle Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['1. He/him/his', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 5,
+            "Same / Different Pairs": "5/40"
+        },
+        "['1. He/him/his', '5. Western Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '5. Western Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "8/37"
+        },
+        "['1. He/him/his', '6. Americas', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '9. South America', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '11. Asia', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 11,
+            "Identities": 5,
+            "Same / Different Pairs": "7/48"
+        },
+        "['1. He/him/his', '14. South-eastern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '15. Southern Asia', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '15. Southern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '22. Oceania', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '23. Australia and New Zealand', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        }
+    },
+    "['age', 'ancestry', 'apparent_skin_color']": {
+        "['[18, 30)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.21,
+            "VAL_Error": 0.27,
+            "Class_Size": 31,
+            "Identities": 14,
+            "Same / Different Pairs": "20/445"
+        },
+        "['[18, 30)', '0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['[18, 30)', '0. Africa', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['[18, 30)', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.14,
+            "VAL_Error": 0.35,
+            "Class_Size": 20,
+            "Identities": 9,
+            "Same / Different Pairs": "13/177"
+        },
+        "['[18, 30)', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '11. Asia', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 15,
+            "Identities": 7,
+            "Same / Different Pairs": "9/96"
+        },
+        "['[18, 30)', '11. Asia', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '14. South-eastern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['[18, 30)', '14. South-eastern Asia', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '15. Southern Asia', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[18, 30)', '15. Southern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['[30, 40)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 6,
+            "Same / Different Pairs": "6/60"
+        },
+        "['[30, 40)', '0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 14,
+            "Identities": 6,
+            "Same / Different Pairs": "10/81"
+        },
+        "['[30, 40)', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['[30, 40)', '3. Middle Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[30, 40)', '5. Western Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[30, 40)', '5. Western Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['[30, 40)', '22. Oceania', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['[30, 40)', '23. Australia and New Zealand', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['[40, 50)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 4,
+            "Same / Different Pairs": "4/24"
+        },
+        "['[40, 50)', '2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[40, 50)', '6. Americas', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['[40, 50)', '9. South America', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['[40, 50)', '11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[40, 50)', '14. South-eastern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['[50, 60)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "10/56"
+        },
+        "['[50, 60)', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 4,
+            "Same / Different Pairs": "9/36"
+        },
+        "['[60, +]', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        }
+    },
+    "['pronoun', 'age', 'ancestry', 'apparent_skin_color']": {
+        "['0. She/her/hers', '[18, 30)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '0. Africa', '2. [164, 131, 103]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[18, 30)', '11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '[18, 30)', '14. South-eastern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['0. She/her/hers', '[40, 50)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[40, 50)', '2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['0. She/her/hers', '[50, 60)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "8/20"
+        },
+        "['0. She/her/hers', '[50, 60)', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 2,
+            "Same / Different Pairs": "7/8"
+        },
+        "['1. He/him/his', '[18, 30)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.1,
+            "VAL_Error": 0.19,
+            "Class_Size": 26,
+            "Identities": 12,
+            "Same / Different Pairs": "16/309"
+        },
+        "['1. He/him/his', '[18, 30)', '2. Eastern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 7,
+            "Identities": 3,
+            "Same / Different Pairs": "5/16"
+        },
+        "['1. He/him/his', '[18, 30)', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 15,
+            "Identities": 7,
+            "Same / Different Pairs": "9/96"
+        },
+        "['1. He/him/his', '[18, 30)', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 9,
+            "Identities": 4,
+            "Same / Different Pairs": "6/30"
+        },
+        "['1. He/him/his', '[18, 30)', '15. Southern Asia', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[30, 40)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 10,
+            "Identities": 5,
+            "Same / Different Pairs": "5/40"
+        },
+        "['1. He/him/his', '[30, 40)', '0. Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 12,
+            "Identities": 5,
+            "Same / Different Pairs": "9/57"
+        },
+        "['1. He/him/his', '[30, 40)', '3. Middle Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 6,
+            "Identities": 3,
+            "Same / Different Pairs": "3/12"
+        },
+        "['1. He/him/his', '[30, 40)', '3. Middle Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[30, 40)', '5. Western Africa', '1. [136, 105, 81]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 8,
+            "Identities": 3,
+            "Same / Different Pairs": "7/21"
+        },
+        "['1. He/him/his', '[30, 40)', '22. Oceania', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[30, 40)', '23. Australia and New Zealand', '5. [198, 180, 157]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[40, 50)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[40, 50)', '6. Americas', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[40, 50)', '9. South America', '3. [175, 148, 120]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 5,
+            "Identities": 2,
+            "Same / Different Pairs": "4/6"
+        },
+        "['1. He/him/his', '[50, 60)', '0. Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        },
+        "['1. He/him/his', '[50, 60)', '4. Southern Africa', '0. [102, 78, 65]']": {
+            "VAL": 0.0,
+            "VAL_Error": 0.0,
+            "Class_Size": 4,
+            "Identities": 2,
+            "Same / Different Pairs": "2/4"
+        }
+    }
+}
