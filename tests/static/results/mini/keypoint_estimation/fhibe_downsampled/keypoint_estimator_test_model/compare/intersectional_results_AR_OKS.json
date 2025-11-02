@@ -1,0 +1,2462 @@
+{
+    "['camera_position']": {
+        "['0. Typical']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0033333333333333335,
+            "Class_Size": 30
+        },
+        "['1. Atypical High']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 11
+        },
+        "['2. Atypical Low']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 9
+        }
+    },
+    "['camera_distance']": {
+        "['1. CD II']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['2. CD III']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.002564102564102564,
+            "Class_Size": 39
+        },
+        "['3. CD IV']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['4. CD V']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['natural_skin_color']": {
+        "['0. [102, 78, 65]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.007692307692307693,
+            "Class_Size": 13
+        },
+        "['1. [136, 105, 81]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['2. [164, 131, 103]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 9
+        },
+        "['3. [175, 148, 120]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['4. [189, 163, 137]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 8
+        },
+        "['5. [198, 180, 157]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 8
+        }
+    },
+    "['hairstyle']": {
+        "['0. None']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 16
+        },
+        "['6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.02,
+            "Class_Size": 5
+        },
+        "['10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['13. Up (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 9
+        },
+        "['18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['camera_position', 'camera_distance']": {
+        "['0. Typical', '1. CD II']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '2. CD III']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.004166666666666667,
+            "Class_Size": 24
+        },
+        "['0. Typical', '3. CD IV']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '1. CD II']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 7
+        },
+        "['1. Atypical High', '3. CD IV']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '4. CD V']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '1. CD II']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 8
+        }
+    },
+    "['camera_position', 'natural_skin_color']": {
+        "['0. Typical', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0125,
+            "Class_Size": 8
+        },
+        "['0. Typical', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['0. Typical', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['1. Atypical High', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['1. Atypical High', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['1. Atypical High', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['2. Atypical Low', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. Atypical Low', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['camera_position', 'hairstyle']": {
+        "['0. Typical', '0. None']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 10
+        },
+        "['0. Typical', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.1
+            ],
+            "AR_OKS": 0.03333333333333333,
+            "Class_Size": 3
+        },
+        "['0. Typical', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '13. Up (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['0. Typical', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. Atypical Low', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['2. Atypical Low', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        }
+    },
+    "['camera_distance', 'natural_skin_color']": {
+        "['1. CD II', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.008333333333333333,
+            "Class_Size": 12
+        },
+        "['2. CD III', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['2. CD III', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 8
+        },
+        "['2. CD III', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. CD III', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['2. CD III', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['3. CD IV', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['3. CD IV', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. CD IV', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['4. CD V', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['camera_distance', 'hairstyle']": {
+        "['1. CD II', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '13. Up (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. CD II', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. CD III', '0. None']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['2. CD III', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['2. CD III', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 15
+        },
+        "['2. CD III', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.1,
+                0.0
+            ],
+            "AR_OKS": 0.03333333333333333,
+            "Class_Size": 3
+        },
+        "['2. CD III', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '13. Up (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. CD III', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 6
+        },
+        "['2. CD III', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. CD IV', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['3. CD IV', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. CD IV', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['4. CD V', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['natural_skin_color', 'hairstyle']": {
+        "['0. [102, 78, 65]', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['0. [102, 78, 65]', '8. Up (Medium)']": {
+            "scores": [
+                0.1
+            ],
+            "AR_OKS": 0.1,
+            "Class_Size": 1
+        },
+        "['0. [102, 78, 65]', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. [136, 105, 81]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. [136, 105, 81]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. [136, 105, 81]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. [136, 105, 81]', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. [164, 131, 103]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. [164, 131, 103]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. [164, 131, 103]', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. [164, 131, 103]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. [175, 148, 120]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. [175, 148, 120]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. [175, 148, 120]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['3. [175, 148, 120]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['4. [189, 163, 137]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['4. [189, 163, 137]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['4. [189, 163, 137]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['4. [189, 163, 137]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['5. [198, 180, 157]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['5. [198, 180, 157]', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['5. [198, 180, 157]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        }
+    },
+    "['camera_position', 'camera_distance', 'natural_skin_color']": {
+        "['0. Typical', '1. CD II', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.1,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.014285714285714287,
+            "Class_Size": 7
+        },
+        "['0. Typical', '2. CD III', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '2. CD III', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['0. Typical', '2. CD III', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['0. Typical', '2. CD III', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '3. CD IV', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '3. CD IV', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '1. CD II', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '1. [136, 105, 81]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '2. [164, 131, 103]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['1. Atypical High', '2. CD III', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '3. CD IV', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. CD IV', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '4. CD V', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '1. CD II', '3. [175, 148, 120]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '0. [102, 78, 65]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['2. Atypical Low', '2. CD III', '4. [189, 163, 137]']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. Atypical Low', '2. CD III', '5. [198, 180, 157]']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['camera_position', 'camera_distance', 'hairstyle']": {
+        "['0. Typical', '1. CD II', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '13. Up (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '1. CD II', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '0. None']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '2. CD III', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['0. Typical', '2. CD III', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 10
+        },
+        "['0. Typical', '2. CD III', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.1
+            ],
+            "AR_OKS": 0.05,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '3. CD IV', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '3. CD IV', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '1. CD II', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '2. CD III', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '3. CD IV', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. CD IV', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '4. CD V', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '1. CD II', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. Atypical Low', '2. CD III', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        }
+    },
+    "['camera_position', 'natural_skin_color', 'hairstyle']": {
+        "['0. Typical', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['0. Typical', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '0. [102, 78, 65]', '8. Up (Medium)']": {
+            "scores": [
+                0.1
+            ],
+            "AR_OKS": 0.1,
+            "Class_Size": 1
+        },
+        "['0. Typical', '0. [102, 78, 65]', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. [136, 105, 81]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '1. [136, 105, 81]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. [136, 105, 81]', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. [164, 131, 103]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. [164, 131, 103]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. [164, 131, 103]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. [164, 131, 103]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '3. [175, 148, 120]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '4. [189, 163, 137]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['0. Typical', '4. [189, 163, 137]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '5. [198, 180, 157]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['1. Atypical High', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '1. [136, 105, 81]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['1. Atypical High', '2. [164, 131, 103]', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. [164, 131, 103]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. [164, 131, 103]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. [175, 148, 120]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. [175, 148, 120]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '4. [189, 163, 137]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '5. [198, 180, 157]', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '0. [102, 78, 65]', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. Atypical Low', '3. [175, 148, 120]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '4. [189, 163, 137]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '4. [189, 163, 137]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. Atypical Low', '5. [198, 180, 157]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['camera_distance', 'natural_skin_color', 'hairstyle']": {
+        "['1. CD II', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '1. [136, 105, 81]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '2. [164, 131, 103]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '3. [175, 148, 120]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '4. [189, 163, 137]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. CD II', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '0. [102, 78, 65]', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['2. CD III', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 5
+        },
+        "['2. CD III', '0. [102, 78, 65]', '8. Up (Medium)']": {
+            "scores": [
+                0.1
+            ],
+            "AR_OKS": 0.1,
+            "Class_Size": 1
+        },
+        "['2. CD III', '0. [102, 78, 65]', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '1. [136, 105, 81]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. CD III', '1. [136, 105, 81]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '1. [136, 105, 81]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '1. [136, 105, 81]', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '2. [164, 131, 103]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. CD III', '2. [164, 131, 103]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['2. CD III', '2. [164, 131, 103]', '8. Up (Medium)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. CD III', '3. [175, 148, 120]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '3. [175, 148, 120]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '4. [189, 163, 137]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 4
+        },
+        "['2. CD III', '4. [189, 163, 137]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. CD III', '5. [198, 180, 157]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. CD III', '5. [198, 180, 157]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. CD III', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['3. CD IV', '3. [175, 148, 120]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. CD IV', '3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. CD IV', '4. [189, 163, 137]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['3. CD IV', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['4. CD V', '5. [198, 180, 157]', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    },
+    "['camera_position', 'camera_distance', 'natural_skin_color', 'hairstyle']": {
+        "['0. Typical', '1. CD II', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '2. [164, 131, 103]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '4. [189, 163, 137]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '1. CD II', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['0. Typical', '2. CD III', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '0. [102, 78, 65]', '8. Up (Medium)']": {
+            "scores": [
+                0.1
+            ],
+            "AR_OKS": 0.1,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '0. [102, 78, 65]', '10. Down (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '1. [136, 105, 81]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '1. [136, 105, 81]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '1. [136, 105, 81]', '18. Free-text']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '2. [164, 131, 103]', '0. None']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '2. [164, 131, 103]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '2. [164, 131, 103]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '2. CD III', '4. [189, 163, 137]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 3
+        },
+        "['0. Typical', '2. CD III', '5. [198, 180, 157]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '2. CD III', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['0. Typical', '3. CD IV', '3. [175, 148, 120]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['0. Typical', '3. CD IV', '5. [198, 180, 157]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '1. CD II', '1. [136, 105, 81]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '1. [136, 105, 81]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '2. [164, 131, 103]', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '2. [164, 131, 103]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '2. [164, 131, 103]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '3. [175, 148, 120]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '2. CD III', '3. [175, 148, 120]', '15. Down (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. CD IV', '3. [175, 148, 120]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '3. CD IV', '4. [189, 163, 137]', '8. Up (Medium)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['1. Atypical High', '4. CD V', '5. [198, 180, 157]', '6. Not listed(Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '1. CD II', '3. [175, 148, 120]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '0. [102, 78, 65]', '0. None']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '0. [102, 78, 65]', '1. Buzz cut']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '0. [102, 78, 65]', '5. Down (Short)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. Atypical Low', '2. CD III', '4. [189, 163, 137]', '5. Down (Short)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        },
+        "['2. Atypical Low', '2. CD III', '4. [189, 163, 137]', '15. Down (Long)']": {
+            "scores": [
+                0.0,
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 2
+        },
+        "['2. Atypical Low', '2. CD III', '5. [198, 180, 157]', '13. Up (Long)']": {
+            "scores": [
+                0.0
+            ],
+            "AR_OKS": 0.0,
+            "Class_Size": 1
+        }
+    }
+}

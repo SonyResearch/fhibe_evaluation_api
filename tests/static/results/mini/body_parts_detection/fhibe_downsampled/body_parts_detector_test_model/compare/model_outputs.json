@@ -1,0 +1,386 @@
+{
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/7029235f-04f6-44fa-a522-b53accdd1a7b/0009e1ce-2235-4e86-b36e-d063d6f94125.png": {
+        "detections": [
+            {
+                "Face": 0.6872700594236812,
+                "Hand": 0.9753571532049581
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/dff25a0c-e59b-4878-8c97-37a9a3ea842c/000bca3f-3853-4857-bb7e-78b4a2eb5ebd.png": {
+        "detections": [
+            {
+                "Face": 0.8659969709057025,
+                "Hand": 0.7993292420985183
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/2c0b6c32-53c4-40d7-961c-82f64deceb94/00123c4e-71f0-4abb-9a4f-6490953d08ee.png": {
+        "detections": [
+            {
+                "Face": 0.5780093202212182,
+                "Hand": 0.5779972601681014
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/6594c04a-26b0-415d-82f0-2d3127798a27/0012e9ba-63f3-41e8-af2b-7973d5deb0a4.png": {
+        "detections": [
+            {
+                "Face": 0.5290418060840998,
+                "Hand": 0.9330880728874675
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/9c0bb98f-64db-4863-b40f-8d58fbef8a5c/0019480b-21a6-4a81-a0aa-8dddda503154.png": {
+        "detections": [
+            {
+                "Face": 0.8005575058716043,
+                "Hand": 0.8540362888980227
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/aab35baa-04f5-4bc7-b21f-daf5a3c4c6f9/001d7bef-b69e-440e-8c87-20d8aa5d1bd1.png": {
+        "detections": [
+            {
+                "Face": 0.5102922471479012,
+                "Hand": 0.9849549260809971
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/72625fd7-c7d4-4539-8c52-79484ead8797/001e22e4-b702-4092-a9a8-7a943fccc8c6.png": {
+        "detections": [
+            {
+                "Face": 0.9162213204002109,
+                "Hand": 0.6061695553391381
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/73943a34-7b5f-4c81-902a-ffcead188a42/00249388-bcca-4669-83a0-f996bdfbfe72.png": {
+        "detections": [
+            {
+                "Face": 0.5909124836035503,
+                "Hand": 0.5917022549267169
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/f31e2019-3f2a-4242-9c5d-834ba5b78408/002dee6a-c299-41fc-a3b1-01fd3433607e.png": {
+        "detections": [
+            {
+                "Face": 0.6521211214797689,
+                "Hand": 0.762378215816119
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/2917b7a2-7147-47af-9ca7-eb9b636d665b/00324969-b443-4a65-95b6-65d09524d11e.png": {
+        "detections": [
+            {
+                "Face": 0.7159725093210578,
+                "Hand": 0.645614570099021
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/97a4331f-3f98-4284-9de8-232e5098b4cc/00343583-668d-43f6-a9d6-dd4993895028.png": {
+        "detections": [
+            {
+                "Face": 0.8059264473611898,
+                "Hand": 0.569746930326021
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/c79024bf-7433-418a-8dd2-8def24f4b126/00378c57-727e-48f9-bc2c-d0e5ef760a18.png": {
+        "detections": [
+            {
+                "Face": 0.6460723242676091,
+                "Hand": 0.6831809216468459
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/4ecc17c8-a84a-4a32-9928-c0acee40ac17/0037ead4-a8fb-4469-81ec-4565d54a7d9a.png": {
+        "detections": [
+            {
+                "Face": 0.728034992108518,
+                "Hand": 0.8925879806965068
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/799c3c2b-0c98-4c92-a85e-ab5e78af3dc1/0038ed75-3f5f-4e6e-888b-eba9e3b9096b.png": {
+        "detections": [
+            {
+                "Face": 0.5998368910791798,
+                "Hand": 0.7571172192068059
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/6594c04a-26b0-415d-82f0-2d3127798a27/003b6979-eeae-460f-a30a-5c99cbeb99cb.png": {
+        "detections": [
+            {
+                "Face": 0.7962072844310213,
+                "Hand": 0.5232252063599989
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/281a71fe-4336-4383-a747-2486217174b5/00445e46-3f4b-4199-b53a-b6ad5268f418.png": {
+        "detections": [
+            {
+                "Face": 0.8037724259507192,
+                "Hand": 0.5852620618436457
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/008e5ba7-61f4-476d-9c59-ff2f18c6d3c1/0051fd2f-952d-46f9-b8fa-7ee77d69f0b9.png": {
+        "detections": [
+            {
+                "Face": 0.5325257964926398,
+                "Hand": 0.9744427686266666
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/7a21b1c4-8124-4db5-bfdb-2a4a16535d5f/00552076-c3f8-4fee-bcfe-6cee9cf1a240.png": {
+        "detections": [
+            {
+                "Face": 0.9828160165372797,
+                "Hand": 0.9041986740582306
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/9a1e0612-532e-43d7-93a3-e81701fa0a6b/0058d307-a872-4a31-9a6a-85d9b50421bd.png": {
+        "detections": [
+            {
+                "Face": 0.6523068845866853,
+                "Hand": 0.5488360570031919
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/e95d7f13-5627-48fd-9e5f-ac9c85d1217c/0059cb98-77bf-4709-9c2d-43db2764a19a.png": {
+        "detections": [
+            {
+                "Face": 0.8421165132560784,
+                "Hand": 0.7200762468698007
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/741b8f52-5b8e-47a5-8cd8-35eaf7598046/005e9eab-261b-49e4-93e9-29583a5807a9.png": {
+        "detections": [
+            {
+                "Face": 0.5610191174223894,
+                "Hand": 0.7475884550556351
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/2ec2d254-52f2-4c4a-b8c0-c0535b19ff54/0066805f-988a-4ebb-a89d-88158feae85f.png": {
+        "detections": [
+            {
+                "Face": 0.5171942605576092,
+                "Hand": 0.954660201039391
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/6f4b7b9e-d3c6-4918-9e7c-eb0fd345ed4a/006bb832-a115-414f-9ece-84d355aec17a.png": {
+        "detections": [
+            {
+                "Face": 0.6293899908000085,
+                "Hand": 0.831261142176991
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/cf66ce19-27ee-427a-ba1a-a4d7332ff18d/006ce336-47d7-4c2c-afb1-5be8a975ba8f.png": {
+        "detections": [
+            {
+                "Face": 0.6558555380447055,
+                "Hand": 0.7600340105889054
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/fe64bed1-86f2-4fe7-b5dc-eb2dc6cb45a2/0072d74a-c30a-4513-8b4d-18894fb6317a.png": {
+        "detections": [
+            {
+                "Face": 0.7733551396716398,
+                "Hand": 0.5924272277627636
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/fcbfa92f-56ea-457c-b92d-ee72acd57d30/00738d70-73d5-493b-a01d-b9f484692821.png": {
+        "detections": [
+            {
+                "Face": 0.9847923138822793,
+                "Hand": 0.8875664116805573
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/d529a51a-a0bb-4dca-b53c-15a947dcfebc/00772aa2-be84-4a1e-83b7-d016f8a93e49.png": {
+        "detections": [
+            {
+                "Face": 0.9697494707820946,
+                "Hand": 0.9474136752138245
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/6128fa4f-5873-4d6e-a2e0-6498e9c04ba0/007a83e7-51d0-4586-92d9-6bcf2afb0197.png": {
+        "detections": [
+            {
+                "Face": 0.7989499894055425,
+                "Hand": 0.9609371175115584
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/6ceedd40-7b09-4b43-b7ad-b36c0451379b/0089c0f9-440c-4dbc-97c5-8e812e8c1167.png": {
+        "detections": [
+            {
+                "Face": 0.5442462510259598,
+                "Hand": 0.5979914312095727
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/bbc6aa2b-47e9-4b4d-83d2-409ddf3b1e64/0093f929-cda4-44c3-aad0-5383caa7239c.png": {
+        "detections": [
+            {
+                "Face": 0.522613644455269,
+                "Hand": 0.6626651653816322
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/fc5f9497-51e0-4d22-a0ed-181cb74c4b6c/009d09b7-d5a3-4d27-8421-d330f4f7892f.png": {
+        "detections": [
+            {
+                "Face": 0.6943386448447411,
+                "Hand": 0.6356745158869479
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/02b9f14f-4612-44e1-a64c-cae2620c0b47/00a2d66f-4224-48f4-bbec-02fb89457030.png": {
+        "detections": [
+            {
+                "Face": 0.9143687545759647,
+                "Hand": 0.6783766633467947
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/515a2aca-cbc6-4d48-a8c3-b69884bda938/00ac3bdd-7740-47c4-bb58-99f3ac73f538.png": {
+        "detections": [
+            {
+                "Face": 0.6404672548436904,
+                "Hand": 0.7713480415791243
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/53c189b8-3bf5-4a55-9f06-38e5cf1c589f/00ad2ab4-5117-4b54-98cf-7801dfe1be90.png": {
+        "detections": [
+            {
+                "Face": 0.5704621124873813,
+                "Hand": 0.9010984903770198
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/3bb2f7a0-159e-47de-a19c-00386a6ab6db/00c3c7be-b888-4cbd-9846-ff988469bd75.png": {
+        "detections": [
+            {
+                "Face": 0.5372753218398854,
+                "Hand": 0.9934434683002586
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/a74601e2-230c-46ff-a980-fef8ac9409fc/00c7bbfc-d749-402e-bf4f-c12f2d087970.png": {
+        "detections": [
+            {
+                "Face": 0.8861223846483287,
+                "Hand": 0.5993578407670862
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/8b7f5ac5-0e07-4165-bc83-4eeb5ac56601/00d0abf6-a1c4-4419-9340-592e2147e48d.png": {
+        "detections": [
+            {
+                "Face": 0.5027610585618012,
+                "Hand": 0.9077307142274171
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/e95c7ecf-da8f-4f21-b866-2841f0127557/00d446d2-91c0-4556-94ef-42fac253a3da.png": {
+        "detections": [
+            {
+                "Face": 0.8534286719238086,
+                "Hand": 0.8645035840204937
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/8d8d9377-f5c7-4bb2-a234-58c349259bef/00d4fc1f-205b-42d8-9abf-d260f1ba7a0a.png": {
+        "detections": [
+            {
+                "Face": 0.8856351733429728,
+                "Hand": 0.5370223258670452
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/f0c246c0-1370-449b-a359-62b49a3b7fd8/00d644ac-edbb-491a-b346-37d4bb7c3dde.png": {
+        "detections": [
+            {
+                "Face": 0.6792328642721364,
+                "Hand": 0.5579345297625649
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/002b6487-cb73-4fb3-97dc-b045d8b8ba06/00dc48cd-22e7-4419-9f37-6b2c1043745d.png": {
+        "detections": [
+            {
+                "Face": 0.9315517129377968,
+                "Hand": 0.811649063413779
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/8d730b50-3a20-4a1d-a709-cfb0d8c4183f/00dded3c-914e-48f0-b7d7-55513e8d4c1c.png": {
+        "detections": [
+            {
+                "Face": 0.6654490124263246,
+                "Hand": 0.5317791751430119
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/3cec2bf1-671a-4e97-97df-9a5a74ecd6f7/00e4007f-f803-4236-9e73-787358ed3b75.png": {
+        "detections": [
+            {
+                "Face": 0.6554911608578311,
+                "Hand": 0.6625916610133735
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/614bf0f0-9e8b-42e3-9d65-65e22014d509/00e7cbb8-89bb-46b7-83ec-3f0ca0b6882d.png": {
+        "detections": [
+            {
+                "Face": 0.864803089169032,
+                "Hand": 0.8187787356776066
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/0a4e340b-389a-436b-a2e8-4ec9d88684f8/00e97711-49e2-44e9-a860-fec1737403cb.png": {
+        "detections": [
+            {
+                "Face": 0.9436063712881633,
+                "Hand": 0.7361074625809747
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/56c8f437-1ac9-46bf-8c32-48da247f8651/00ee3bca-db5d-4f0c-84c4-8d0f8e5cdd57.png": {
+        "detections": [
+            {
+                "Face": 0.5597971229691509,
+                "Hand": 0.8566223936114975
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/f82e6916-bbba-49a2-9589-cf46b34de26e/00ef618b-03fa-4067-a9a0-674139d435b1.png": {
+        "detections": [
+            {
+                "Face": 0.8803925243084487,
+                "Hand": 0.7806385987847482
+            }
+        ]
+    },
+    "/home/ubuntu/fairness-benchmark-internal/tests/static/data/images/1b62b796-ccc5-4c7f-8197-45f90ac751f9/00f54e48-f526-4191-a917-a718ee06cda4.png": {
+        "detections": [
+            {
+                "Face": 0.8854835899772805,
+                "Hand": 0.7468977981821954
+            }
+        ]
+    }
+}

@@ -1,0 +1,402 @@
+{
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/9ec2ab4d-8b28-45ac-8c9a-ba9e5b04ad16/d9df58a0-70a7-4447-bd60-d761499a110e/main_d9df58a0-70a7-4447-bd60-d761499a110e.png": {
+        "detections": [
+            {
+                "Face": 0.7684628367424011,
+                "Hand": 0.20745167136192322
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/2b58c858-d8eb-49a1-b4d1-2191cb8d06bf/a2201088-f961-40c0-9c7d-dafc046d782f/main_a2201088-f961-40c0-9c7d-dafc046d782f.png": {
+        "detections": [
+            {
+                "Face": 0.983126699924469,
+                "Hand": 0.983126699924469
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/a77705fa-051a-41d4-a561-45d9727b0999/c5335d8c-702d-44eb-a2e4-d384f43ba663/main_c5335d8c-702d-44eb-a2e4-d384f43ba663.png": {
+        "detections": [
+            {
+                "Face": 0.10933385789394379,
+                "Hand": 0.7210513353347778
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/bbc6aa2b-47e9-4b4d-83d2-409ddf3b1e64/f3509055-7107-48e6-9624-5598bfdd7321/main_f3509055-7107-48e6-9624-5598bfdd7321.png": {
+        "detections": [
+            {
+                "Face": 0.640239953994751,
+                "Hand": 0.37841662764549255
+            },
+            {
+                "Face": 0.640239953994751,
+                "Hand": 0.37841662764549255
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/bb9f041a-abff-4f16-a972-105d8b8c3e57/b4167600-7062-4e74-ad03-909f0224c4a0/main_b4167600-7062-4e74-ad03-909f0224c4a0.png": {
+        "detections": [
+            {
+                "Face": 0.974741518497467,
+                "Hand": 0.42297449707984924
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/c1dc1c28-70d5-4cfc-95e4-ccf84ea9e930/2730993e-53b8-4b29-a434-577eab5b63eb/main_2730993e-53b8-4b29-a434-577eab5b63eb.png": {
+        "detections": [
+            {
+                "Face": 0.9215695261955261,
+                "Hand": 0.9215695261955261
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/37656ebe-cc15-4bdc-aa52-ebf980cb9920/ab4001dd-4541-444a-b201-53e51d3b48c7/main_ab4001dd-4541-444a-b201-53e51d3b48c7.png": {
+        "detections": [
+            {
+                "Face": 0.4170492887496948,
+                "Hand": 0.2275056391954422
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/0048d7c9-de39-4935-9d1d-f410edd3a50a/a7fcccd7-d1c9-4f63-a321-856cc92eca94/main_a7fcccd7-d1c9-4f63-a321-856cc92eca94.png": {
+        "detections": [
+            {
+                "Face": 0.2913692593574524,
+                "Hand": 0.2963397800922394
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/46bb2b6b-dd9c-4930-82be-3afcf710f02d/5655f414-7e75-471f-bbbb-0041a9c7a71b/main_5655f414-7e75-471f-bbbb-0041a9c7a71b.png": {
+        "detections": [
+            {
+                "Face": 0.6280179619789124,
+                "Hand": 0.40171748399734497
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/96520efe-9b0e-4c14-a0cb-adb88f6196d5/7128b899-041c-4a92-b127-69c1e067dd82/main_7128b899-041c-4a92-b127-69c1e067dd82.png": {
+        "detections": [
+            {
+                "Face": 0.11925531923770905,
+                "Hand": 0.6829209923744202
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/70ab671f-83ff-4c38-b059-bdc528851d1b/d8545571-3684-4ba2-b92f-09bd7cb30efa/main_d8545571-3684-4ba2-b92f-09bd7cb30efa.png": {
+        "detections": [
+            {
+                "Face": 0.995387613773346,
+                "Hand": 0.1587999165058136
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/7f799427-9514-4217-ac9c-07104a1283f3/715ecd05-f7b4-470c-9ec2-433ea07e149b/main_715ecd05-f7b4-470c-9ec2-433ea07e149b.png": {
+        "detections": [
+            {
+                "Face": 0.6725291013717651,
+                "Hand": 0.09345826506614685
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/3f49c10e-d9af-4bc6-8a4f-0b406a2c5a57/b79b4836-3caa-4c98-891d-86a1ec933be9/main_b79b4836-3caa-4c98-891d-86a1ec933be9.png": {
+        "detections": [
+            {
+                "Face": 0.8087842464447021,
+                "Hand": 0.8087842464447021
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/f81dead3-a1c6-421c-99cc-2a5f80f25a5c/35ec8292-22ed-4533-ad68-2d01aae147c4/main_35ec8292-22ed-4533-ad68-2d01aae147c4.png": {
+        "detections": [
+            {
+                "Face": 0.17773999273777008,
+                "Hand": 0.5390573740005493
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/949cf60f-6a55-4bed-84ca-52f425abbcbd/4f5f02cf-c35b-4317-90ed-fd1be1650901/main_4f5f02cf-c35b-4317-90ed-fd1be1650901.png": {
+        "detections": [
+            {
+                "Face": 0.8679206967353821,
+                "Hand": 0.016399824991822243
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/1ad77684-644c-4282-aed1-8884c91aa666/a78bd025-3215-41f8-8a55-58329d212c20/main_a78bd025-3215-41f8-8a55-58329d212c20.png": {
+        "detections": [
+            {
+                "Face": 0.482536256313324,
+                "Hand": 0.2777024507522583
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/8d689474-9621-4e4d-ab4a-cb3c181a84f4/67c902e7-798b-43e8-97d4-9bb022a5ca03/main_67c902e7-798b-43e8-97d4-9bb022a5ca03.png": {
+        "detections": [
+            {
+                "Face": 0.7524466514587402,
+                "Hand": 0.03415738418698311
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/f2ea2d5a-d61c-4e17-b695-c4db569e7998/0c254f4e-8851-4aa4-9688-cc4364d93a22/main_0c254f4e-8851-4aa4-9688-cc4364d93a22.png": {
+        "detections": [
+            {
+                "Face": 0.9387507438659668,
+                "Hand": 0.2288721650838852
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/198762f7-7b5f-47ae-9580-b584ddd8d7a9/5ac1c916-a8fa-481b-ac94-693746a3af71/main_5ac1c916-a8fa-481b-ac94-693746a3af71.png": {
+        "detections": [
+            {
+                "Face": 0.06300731003284454,
+                "Hand": 0.06024672091007233
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/be8f17e2-7f7d-453b-a948-976e15549d1f/17bcbd0f-55c1-4954-bda8-07c604733109/main_17bcbd0f-55c1-4954-bda8-07c604733109.png": {
+        "detections": [
+            {
+                "Face": 0.3919188976287842,
+                "Hand": 0.19399775564670563
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/ace9c30b-f6b9-4493-9c92-d77d5c0a1ea8/34e4640f-0831-44c4-924c-b14af6efa7c3/main_34e4640f-0831-44c4-924c-b14af6efa7c3.png": {
+        "detections": [
+            {
+                "Face": 0.6924620270729065,
+                "Hand": 0.1293451488018036
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/d9d10de2-aa0c-4f02-8dfb-4ca799b7ac52/c241cecb-c57a-4353-99e2-445ffc4095af/main_c241cecb-c57a-4353-99e2-445ffc4095af.png": {
+        "detections": [
+            {
+                "Face": 0.9799903035163879,
+                "Hand": 0.008741924539208412
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/239fd3fd-09a4-46e2-8b2b-8cbee7264ef3/b94a981c-41c2-4f62-ab80-c6ffd68256d9/main_b94a981c-41c2-4f62-ab80-c6ffd68256d9.png": {
+        "detections": [
+            {
+                "Face": 0.9746814966201782,
+                "Hand": 0.9746814966201782
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/edd37931-86ac-4a9c-8724-8ef27a0bd435/3487be88-2b54-450c-9d01-1f2760f1d0de/main_3487be88-2b54-450c-9d01-1f2760f1d0de.png": {
+        "detections": [
+            {
+                "Face": 0.1217462345957756,
+                "Hand": 0.6037634015083313
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/03a41434-988c-4637-a4f7-21128e7d51ef/265a91a1-13b8-4302-b79a-b9a171121460/main_265a91a1-13b8-4302-b79a-b9a171121460.png": {
+        "detections": [
+            {
+                "Face": 0.8676185607910156,
+                "Hand": 0.8676185607910156
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/5be91285-49ec-4a30-af59-02bb0a12ff83/899fb75e-aa0d-47cc-93a8-02d1667442c8/main_899fb75e-aa0d-47cc-93a8-02d1667442c8.png": {
+        "detections": [
+            {
+                "Face": 0.9773553609848022,
+                "Hand": 0.9773553609848022
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/cb31682f-967c-45b7-a21c-94da7919e456/9645a355-6642-4d10-87c7-0a0a34acbee0/main_9645a355-6642-4d10-87c7-0a0a34acbee0.png": {
+        "detections": [
+            {
+                "Face": 0.704637348651886,
+                "Hand": 0.361075222492218
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/23c13352-b85e-41e9-8ea6-2b55d8d18bb1/9201aeae-58b5-4221-a050-937d2523b0ef/main_9201aeae-58b5-4221-a050-937d2523b0ef.png": {
+        "detections": [
+            {
+                "Face": 0.981705904006958,
+                "Hand": 0.1554492861032486
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/4677e055-1680-45b9-ad65-de8506c23654/89038577-7b3d-452d-9609-b32444fe7118/main_89038577-7b3d-452d-9609-b32444fe7118.png": {
+        "detections": [
+            {
+                "Face": 0.9896451234817505,
+                "Hand": 0.030956948176026344
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/b2e04b02-b4c6-4326-85a6-c82728811a18/1c5d783c-6ee9-453e-be91-72382784d9e7/main_1c5d783c-6ee9-453e-be91-72382784d9e7.png": {
+        "detections": [
+            {
+                "Face": 0.9791814088821411,
+                "Hand": 0.043696023523807526
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/c30a5a52-3fc4-4a98-96b6-eb90915697df/1d10eede-5de5-46b1-84f5-20cdca66909a/main_1d10eede-5de5-46b1-84f5-20cdca66909a.png": {
+        "detections": [
+            {
+                "Face": 0.4644101560115814,
+                "Hand": 0.4644101560115814
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/1964e83a-195a-4e29-a02b-16e7f80ba11f/f03877c3-4e2a-46cd-aefc-428b624c1e9b/main_f03877c3-4e2a-46cd-aefc-428b624c1e9b.png": {
+        "detections": [
+            {
+                "Face": 0.9918844699859619,
+                "Hand": 0.9918844699859619
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/0c0352bf-6d66-4bbf-86a0-3f2a7e4d899d/03ba74f8-e855-4901-9525-f98305dae3a7/main_03ba74f8-e855-4901-9525-f98305dae3a7.png": {
+        "detections": [
+            {
+                "Face": 0.1814279407262802,
+                "Hand": 0.1814279407262802
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/cf9ddf04-c852-4183-a87d-25e48ec122b8/0d3dfde9-9946-4eec-8226-c494b50cb8ed/main_0d3dfde9-9946-4eec-8226-c494b50cb8ed.png": {
+        "detections": [
+            {
+                "Face": 0.4800164997577667,
+                "Hand": 0.04641511291265488
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/3749bb17-1470-4bcc-a729-9315dea53ec0/021fad79-dcb2-45b8-8420-9fec33a1b162/main_021fad79-dcb2-45b8-8420-9fec33a1b162.png": {
+        "detections": [
+            {
+                "Face": 0.9998118281364441,
+                "Hand": 0.9998118281364441
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/391af75b-6f3a-48ce-8517-e937da9f368c/68e43055-cbb8-4ff8-b588-5391469ca728/main_68e43055-cbb8-4ff8-b588-5391469ca728.png": {
+        "detections": [
+            {
+                "Face": 0.9476824402809143,
+                "Hand": 0.2643437087535858
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/e20c1e62-0763-4102-ad12-86af91a5be47/2f8d98cb-4e29-4306-90e7-78d7689737ee/main_2f8d98cb-4e29-4306-90e7-78d7689737ee.png": {
+        "detections": [
+            {
+                "Face": 0.8916404843330383,
+                "Hand": 0.039413318037986755
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/bfadd466-24b5-4bdb-a2a1-baf948441e82/0a619f4e-8cd3-4993-a9b1-94efe668e88b/main_0a619f4e-8cd3-4993-a9b1-94efe668e88b.png": {
+        "detections": [
+            {
+                "Face": 0.9016599059104919,
+                "Hand": 0.032674919813871384
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/a227cfc4-5ca8-4e9e-be6d-7d0666eb5214/8d2ad9ef-f6a2-4456-baaa-e15fa5237a02/main_8d2ad9ef-f6a2-4456-baaa-e15fa5237a02.png": {
+        "detections": [
+            {
+                "Face": 0.9993896484375,
+                "Hand": 0.16211996972560883
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/135da234-4bd5-48ba-9c24-e0c2a58cc75c/d8353da2-c8c5-4e67-b8a9-4d589b04f93d/main_d8353da2-c8c5-4e67-b8a9-4d589b04f93d.png": {
+        "detections": [
+            {
+                "Face": 0.5260564684867859,
+                "Hand": 0.5260564684867859
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/8a8320a3-1daf-4e4b-9006-06c2e938e5d4/9120ecdd-d91d-43d5-b61d-fd087baf7ecf/main_9120ecdd-d91d-43d5-b61d-fd087baf7ecf.png": {
+        "detections": [
+            {
+                "Face": 0.7720119953155518,
+                "Hand": 0.9733362793922424
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/78aa75c1-3ea1-4224-99ff-7dd3443f5b67/d185a608-f912-4c75-bd49-60257029eb07/main_d185a608-f912-4c75-bd49-60257029eb07.png": {
+        "detections": [
+            {
+                "Face": 0.8590744137763977,
+                "Hand": 0.8590744137763977
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/acf1846f-968c-4baa-85e6-fc4322df96c5/9003d170-7f29-48c4-ba17-fb0ea8ac1211/main_9003d170-7f29-48c4-ba17-fb0ea8ac1211.png": {
+        "detections": [
+            {
+                "Face": 0.8580160140991211,
+                "Hand": 0.8580160140991211
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/c18bd1b7-dd81-4345-aac9-19aa4f5754b0/09d6cb13-1432-4e2b-83d5-6c8876c5cb27/main_09d6cb13-1432-4e2b-83d5-6c8876c5cb27.png": {
+        "detections": [
+            {
+                "Face": 0.1097676157951355,
+                "Hand": 0.38103631138801575
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/a557f5fe-0fa9-4c09-9de1-dfe14e42e118/92440f42-1fab-45b7-ac59-181426ddee6d/main_92440f42-1fab-45b7-ac59-181426ddee6d.png": {
+        "detections": [
+            {
+                "Face": 0.04989372566342354,
+                "Hand": 0.04989372566342354
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/fc5f9497-51e0-4d22-a0ed-181cb74c4b6c/9fa7deb7-41a3-40f7-be60-aae6573e763f/main_9fa7deb7-41a3-40f7-be60-aae6573e763f.png": {
+        "detections": [
+            {
+                "Face": 0.9872519969940186,
+                "Hand": 0.9872519969940186
+            },
+            {
+                "Face": 0.123456789,
+                "Hand": 0.9872519969940186
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/a18aec3d-c1f5-45b7-b1bc-7a30ee553421/de7e15f9-e18a-47cb-92b4-0e5d0829a932/main_de7e15f9-e18a-47cb-92b4-0e5d0829a932.png": {
+        "detections": [
+            {
+                "Face": 0.9966664910316467,
+                "Hand": 0.001587925711646676
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/4f206165-95fb-40af-9390-5afc16964640/6184a338-eb9c-4631-92e4-074a083e1e40/main_6184a338-eb9c-4631-92e4-074a083e1e40.png": {
+        "detections": [
+            {
+                "Face": 0.9169389605522156,
+                "Hand": 0.9169389605522156
+            }
+        ]
+    },
+    "/home/austin.hoag/fhibe_evaluation_api/tests/static/data/raw/fhibe_downsampled/ff3d0063-5dbc-46b3-a10d-32d846c8d585/bcdeed1b-2573-4544-bc77-aec78d9c386a/main_bcdeed1b-2573-4544-bc77-aec78d9c386a.png": {
+        "detections": [
+            {
+                "Face": 0.9927836656570435,
+                "Hand": 0.08821088075637817
+            }
+        ]
+    }
+}

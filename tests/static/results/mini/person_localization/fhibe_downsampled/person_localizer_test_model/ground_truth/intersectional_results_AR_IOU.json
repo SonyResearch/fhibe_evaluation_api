@@ -1,0 +1,2335 @@
+{
+    "['pronoun']": {
+        "['0. She/her/hers']": {"scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                0.8,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.5,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.7,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8863636363636364, "Class_Size": 22
+        },
+        "['1. He/him/his']": {"scores": [
+                0.8,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9428571428571427, "Class_Size": 28
+        },
+        "['2. They/them/their']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['age']": {
+        "['[18, 30)']": {"scores": [
+                0.8,
+                0.8,
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                0.5,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.6,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.909375, "Class_Size": 32
+        },
+        "['[30, 40)']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9400000000000001, "Class_Size": 5
+        },
+        "['[40, 50)']": {"scores": [
+                1.0,
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.7
+            ], "AR_IOU": 0.9142857142857144, "Class_Size": 7
+        },
+        "['[50, 60)']": {"scores": [
+                0.9,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['[60, +]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        }
+    },
+    "['ancestry']": {
+        "['0. Africa']": {"scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9291666666666666, "Class_Size": 24
+        },
+        "['1. Northern Africa']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['2. Eastern Africa']": {"scores": [
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9200000000000002, "Class_Size": 5
+        },
+        "['3. Middle Africa']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9375, "Class_Size": 8
+        },
+        "['4. Southern Africa']": {"scores": [
+                0.8,
+                1.0,
+                0.8,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.925, "Class_Size": 8
+        },
+        "['5. Western Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['11. Asia']": {"scores": [
+                0.8,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.5,
+                0.9,
+                0.8,
+                1.0,
+                0.9,
+                0.6,
+                1.0,
+                1.0,
+                1.0,
+                0.7,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9079999999999998, "Class_Size": 25
+        },
+        "['13. Eastern Asia']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['14. South-eastern Asia']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.7,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.925, "Class_Size": 8
+        },
+        "['15. Southern Asia']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9583333333333334, "Class_Size": 12
+        },
+        "['17. Europe']": {"scores": [
+                0.9,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9249999999999999, "Class_Size": 4
+        },
+        "['18. Eastern Europe']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['21. Western Europe']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        }
+    },
+    "['apparent_skin_color']": {
+        "['0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9384615384615385, "Class_Size": 13
+        },
+        "['1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.93, "Class_Size": 10
+        },
+        "['2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.7,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9142857142857144, "Class_Size": 7
+        },
+        "['3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9500000000000001, "Class_Size": 12
+        },
+        "['4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8285714285714285, "Class_Size": 7
+        },
+        "['5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['pronoun', 'age']": {
+        "['0. She/her/hers', '[18, 30)']": {"scores": [
+                0.8,
+                0.9,
+                0.8,
+                1.0,
+                0.9,
+                0.5,
+                1.0,
+                0.9,
+                0.9,
+                0.6,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8615384615384616, "Class_Size": 13
+        },
+        "['0. She/her/hers', '[30, 40)']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)']": {"scores": [
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.7
+            ], "AR_IOU": 0.9, "Class_Size": 6
+        },
+        "['0. She/her/hers', '[50, 60)']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)']": {"scores": [
+                0.8,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9421052631578947, "Class_Size": 19
+        },
+        "['1. He/him/his', '[30, 40)']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9249999999999999, "Class_Size": 4
+        },
+        "['1. He/him/his', '[40, 50)']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[60, +]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['2. They/them/their', '[18, 30)']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['pronoun', 'ancestry']": {
+        "['0. She/her/hers', '0. Africa']": {"scores": [
+                0.8,
+                0.9,
+                0.8,
+                1.0,
+                0.8,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9090909090909091, "Class_Size": 11
+        },
+        "['0. She/her/hers', '1. Northern Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '2. Eastern Africa']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '3. Middle Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '4. Southern Africa']": {"scores": [
+                0.8,
+                1.0,
+                0.8,
+                0.9,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9142857142857144, "Class_Size": 7
+        },
+        "['0. She/her/hers', '11. Asia']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                0.5,
+                0.6,
+                0.7,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.86, "Class_Size": 10
+        },
+        "['0. She/her/hers', '13. Eastern Asia']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['0. She/her/hers', '14. South-eastern Asia']": {"scores": [
+                1.0,
+                0.7,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 6
+        },
+        "['0. She/her/hers', '15. Southern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '17. Europe']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '21. Western Europe']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '0. Africa']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9461538461538462, "Class_Size": 13
+        },
+        "['1. He/him/his', '1. Northern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '2. Eastern Africa']": {"scores": [
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['1. He/him/his', '3. Middle Africa']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.942857142857143, "Class_Size": 7
+        },
+        "['1. He/him/his', '4. Southern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '5. Western Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '11. Asia']": {"scores": [
+                0.8,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9400000000000001, "Class_Size": 15
+        },
+        "['1. He/him/his', '14. South-eastern Asia']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '15. Southern Asia']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9545454545454546, "Class_Size": 11
+        },
+        "['1. He/him/his', '17. Europe']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '18. Eastern Europe']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['2. They/them/their', '0. Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['2. They/them/their', '4. Southern Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['pronoun', 'apparent_skin_color']": {
+        "['0. She/her/hers', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 5
+        },
+        "['0. She/her/hers', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['0. She/her/hers', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['0. She/her/hers', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.96, "Class_Size": 5
+        },
+        "['0. She/her/hers', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8166666666666668, "Class_Size": 6
+        },
+        "['0. She/her/hers', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['1. He/him/his', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9625, "Class_Size": 8
+        },
+        "['1. He/him/his', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9166666666666666, "Class_Size": 6
+        },
+        "['1. He/him/his', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9500000000000001, "Class_Size": 6
+        },
+        "['1. He/him/his', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9428571428571428, "Class_Size": 7
+        },
+        "['1. He/him/his', '4. [189, 163, 137]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['2. They/them/their', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['age', 'ancestry']": {
+        "['[18, 30)', '0. Africa']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9333333333333335, "Class_Size": 15
+        },
+        "['[18, 30)', '1. Northern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[18, 30)', '2. Eastern Africa']": {"scores": [
+                0.8,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 3
+        },
+        "['[18, 30)', '3. Middle Africa']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9400000000000001, "Class_Size": 5
+        },
+        "['[18, 30)', '4. Southern Africa']": {"scores": [
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9333333333333335, "Class_Size": 6
+        },
+        "['[18, 30)', '11. Asia']": {"scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                1.0,
+                0.5,
+                0.9,
+                0.8,
+                1.0,
+                0.9,
+                0.6,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.888235294117647, "Class_Size": 17
+        },
+        "['[18, 30)', '13. Eastern Asia']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['[18, 30)', '14. South-eastern Asia']": {"scores": [
+                0.9,
+                0.9,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9400000000000001, "Class_Size": 5
+        },
+        "['[18, 30)', '15. Southern Asia']": {"scores": [
+                0.9,
+                1.0,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.942857142857143, "Class_Size": 7
+        },
+        "['[18, 30)', '17. Europe']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[18, 30)', '18. Eastern Europe']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[30, 40)', '0. Africa']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9400000000000001, "Class_Size": 5
+        },
+        "['[30, 40)', '3. Middle Africa']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['[30, 40)', '4. Southern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[30, 40)', '5. Western Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[40, 50)', '0. Africa']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['[40, 50)', '2. Eastern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[40, 50)', '4. Southern Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['[40, 50)', '11. Asia']": {"scores": [
+                1.0,
+                1.0,
+                1.0,
+                0.7
+            ], "AR_IOU": 0.925, "Class_Size": 4
+        },
+        "['[40, 50)', '14. South-eastern Asia']": {"scores": [
+                1.0,
+                0.7
+            ], "AR_IOU": 0.85, "Class_Size": 2
+        },
+        "['[40, 50)', '15. Southern Asia']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['[40, 50)', '17. Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[40, 50)', '21. Western Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '0. Africa']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['[50, 60)', '1. Northern Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '2. Eastern Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '11. Asia']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['[50, 60)', '14. South-eastern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '15. Southern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '17. Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '21. Western Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[60, +]', '11. Asia']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[60, +]', '15. Southern Asia']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        }
+    },
+    "['age', 'apparent_skin_color']": {
+        "['[18, 30)', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333333, "Class_Size": 9
+        },
+        "['[18, 30)', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9285714285714287, "Class_Size": 7
+        },
+        "['[18, 30)', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['[18, 30)', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9428571428571428, "Class_Size": 7
+        },
+        "['[18, 30)', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.7999999999999999, "Class_Size": 6
+        },
+        "['[30, 40)', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[30, 40)', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['[40, 50)', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[40, 50)', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['[40, 50)', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.975, "Class_Size": 4
+        },
+        "['[40, 50)', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['[50, 60)', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '2. [164, 131, 103]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '4. [189, 163, 137]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[60, +]', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        }
+    },
+    "['ancestry', 'apparent_skin_color']": {
+        "['0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9384615384615385, "Class_Size": 13
+        },
+        "['0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333333, "Class_Size": 9
+        },
+        "['0. Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['1. Northern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. Northern Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9200000000000002, "Class_Size": 5
+        },
+        "['3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.975, "Class_Size": 4
+        },
+        "['3. Middle Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 4
+        },
+        "['4. Southern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.96, "Class_Size": 5
+        },
+        "['4. Southern Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['5. Western Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['11. Asia', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['11. Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.7,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9142857142857144, "Class_Size": 7
+        },
+        "['11. Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9555555555555555, "Class_Size": 9
+        },
+        "['11. Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8285714285714285, "Class_Size": 7
+        },
+        "['13. Eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['14. South-eastern Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9666666666666667, "Class_Size": 3
+        },
+        "['14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['15. Southern Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9800000000000001, "Class_Size": 5
+        },
+        "['15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                1.0,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9500000000000001, "Class_Size": 6
+        },
+        "['17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9249999999999999, "Class_Size": 4
+        },
+        "['18. Eastern Europe', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['21. Western Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        }
+    },
+    "['pronoun', 'age', 'ancestry']": {
+        "['0. She/her/hers', '[18, 30)', '0. Africa']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9000000000000001, "Class_Size": 7
+        },
+        "['0. She/her/hers', '[18, 30)', '2. Eastern Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '3. Middle Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '4. Southern Africa']": {"scores": [
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9200000000000002, "Class_Size": 5
+        },
+        "['0. She/her/hers', '[18, 30)', '11. Asia']": {"scores": [
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8166666666666668, "Class_Size": 6
+        },
+        "['0. She/her/hers', '[18, 30)', '13. Eastern Asia']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[18, 30)', '14. South-eastern Asia']": {"scores": [
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9666666666666667, "Class_Size": 3
+        },
+        "['0. She/her/hers', '[30, 40)', '0. Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[30, 40)', '4. Southern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '0. Africa']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[40, 50)', '2. Eastern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '4. Southern Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '11. Asia']": {"scores": [
+                1.0,
+                1.0,
+                0.7
+            ], "AR_IOU": 0.9, "Class_Size": 3
+        },
+        "['0. She/her/hers', '[40, 50)', '14. South-eastern Asia']": {"scores": [
+                1.0,
+                0.7
+            ], "AR_IOU": 0.85, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[40, 50)', '15. Southern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '17. Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '21. Western Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '0. Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '1. Northern Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '11. Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '14. South-eastern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '17. Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '21. Western Europe']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '0. Africa']": {"scores": [
+                1.0,
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9624999999999999, "Class_Size": 8
+        },
+        "['1. He/him/his', '[18, 30)', '1. Northern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '2. Eastern Africa']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '3. Middle Africa']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['1. He/him/his', '[18, 30)', '4. Southern Africa']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia']": {"scores": [
+                0.8,
+                0.9,
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9272727272727272, "Class_Size": 11
+        },
+        "['1. He/him/his', '[18, 30)', '14. South-eastern Asia']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '15. Southern Asia']": {"scores": [
+                0.9,
+                1.0,
+                0.8,
+                1.0,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.942857142857143, "Class_Size": 7
+        },
+        "['1. He/him/his', '[18, 30)', '17. Europe']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '18. Eastern Europe']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[30, 40)', '0. Africa']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9249999999999999, "Class_Size": 4
+        },
+        "['1. He/him/his', '[30, 40)', '3. Middle Africa']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['1. He/him/his', '[30, 40)', '5. Western Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[40, 50)', '11. Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[40, 50)', '15. Southern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '0. Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '2. Eastern Africa']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '11. Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '15. Southern Asia']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[60, +]', '11. Asia']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[60, +]', '15. Southern Asia']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['2. They/them/their', '[18, 30)', '0. Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['2. They/them/their', '[18, 30)', '4. Southern Africa']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['pronoun', 'age', 'apparent_skin_color']": {
+        "['0. She/her/hers', '[18, 30)', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.875, "Class_Size": 4
+        },
+        "['0. She/her/hers', '[18, 30)', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['0. She/her/hers', '[18, 30)', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.78, "Class_Size": 5
+        },
+        "['0. She/her/hers', '[30, 40)', '1. [136, 105, 81]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9666666666666667, "Class_Size": 3
+        },
+        "['0. She/her/hers', '[40, 50)', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '4. [189, 163, 137]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '0. [102, 78, 65]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9800000000000001, "Class_Size": 5
+        },
+        "['1. He/him/his', '[18, 30)', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9249999999999999, "Class_Size": 4
+        },
+        "['1. He/him/his', '[18, 30)', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['1. He/him/his', '[18, 30)', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 6
+        },
+        "['1. He/him/his', '[18, 30)', '4. [189, 163, 137]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[30, 40)', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[30, 40)', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '[40, 50)', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '2. [164, 131, 103]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[60, +]', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['2. They/them/their', '[18, 30)', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['pronoun', 'ancestry', 'apparent_skin_color']": {
+        "['0. She/her/hers', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 5
+        },
+        "['0. She/her/hers', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['0. She/her/hers', '0. Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '0. Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '1. Northern Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '4. Southern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['0. She/her/hers', '4. Southern Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['0. She/her/hers', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 3
+        },
+        "['0. She/her/hers', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.8166666666666668, "Class_Size": 6
+        },
+        "['0. She/her/hers', '13. Eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['0. She/her/hers', '14. South-eastern Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['0. She/her/hers', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['0. She/her/hers', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9666666666666667, "Class_Size": 3
+        },
+        "['0. She/her/hers', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '21. Western Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9625, "Class_Size": 8
+        },
+        "['1. He/him/his', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9199999999999999, "Class_Size": 5
+        },
+        "['1. He/him/his', '1. Northern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['1. He/him/his', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 3
+        },
+        "['1. He/him/his', '3. Middle Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 4
+        },
+        "['1. He/him/his', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '5. Western Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '11. Asia', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '11. Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9500000000000001, "Class_Size": 6
+        },
+        "['1. He/him/his', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 6
+        },
+        "['1. He/him/his', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '15. Southern Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                1.0,
+                1.0,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9800000000000001, "Class_Size": 5
+        },
+        "['1. He/him/his', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9400000000000001, "Class_Size": 5
+        },
+        "['1. He/him/his', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '18. Eastern Europe', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['2. They/them/their', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['2. They/them/their', '4. Southern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    },
+    "['age', 'ancestry', 'apparent_skin_color']": {
+        "['[18, 30)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                1.0,
+                0.9,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333333, "Class_Size": 9
+        },
+        "['[18, 30)', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333335, "Class_Size": 6
+        },
+        "['[18, 30)', '1. Northern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[18, 30)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 3
+        },
+        "['[18, 30)', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9666666666666667, "Class_Size": 3
+        },
+        "['[18, 30)', '3. Middle Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['[18, 30)', '4. Southern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['[18, 30)', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 4
+        },
+        "['[18, 30)', '11. Asia', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[18, 30)', '11. Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[18, 30)', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['[18, 30)', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 6
+        },
+        "['[18, 30)', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.7999999999999999, "Class_Size": 6
+        },
+        "['[18, 30)', '13. Eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['[18, 30)', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[18, 30)', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['[18, 30)', '15. Southern Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[18, 30)', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['[18, 30)', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.925, "Class_Size": 4
+        },
+        "['[18, 30)', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[18, 30)', '18. Eastern Europe', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[30, 40)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[30, 40)', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['[30, 40)', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[30, 40)', '3. Middle Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['[30, 40)', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[30, 40)', '5. Western Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[40, 50)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[40, 50)', '0. Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['[40, 50)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[40, 50)', '4. Southern Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['[40, 50)', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['[40, 50)', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 3
+        },
+        "['[40, 50)', '14. South-eastern Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['[40, 50)', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[40, 50)', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['[40, 50)', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[40, 50)', '21. Western Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '0. Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '1. Northern Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['[50, 60)', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[50, 60)', '21. Western Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['[60, +]', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['[60, +]', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        }
+    },
+    "['pronoun', 'age', 'ancestry', 'apparent_skin_color']": {
+        "['0. She/her/hers', '[18, 30)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                0.8,
+                1.0,
+                0.9
+            ], "AR_IOU": 0.875, "Class_Size": 4
+        },
+        "['0. She/her/hers', '[18, 30)', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['0. She/her/hers', '[18, 30)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '4. Southern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8,
+                1.0
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[18, 30)', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['0. She/her/hers', '[18, 30)', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.5,
+                0.6,
+                0.9,
+                1.0
+            ], "AR_IOU": 0.78, "Class_Size": 5
+        },
+        "['0. She/her/hers', '[18, 30)', '13. Eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                0.6
+            ], "AR_IOU": 0.75, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[18, 30)', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[18, 30)', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[30, 40)', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[30, 40)', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '0. Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '4. Southern Africa', '5. [198, 180, 157]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['0. She/her/hers', '[40, 50)', '14. South-eastern Asia', '2. [164, 131, 103]']": {"scores": [
+                0.7
+            ], "AR_IOU": 0.7, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[40, 50)', '21. Western Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '0. Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '1. Northern Africa', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['0. She/her/hers', '[50, 60)', '21. Western Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0,
+                0.9,
+                1.0,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9800000000000001, "Class_Size": 5
+        },
+        "['1. He/him/his', '[18, 30)', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0,
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['1. He/him/his', '[18, 30)', '1. Northern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '3. Middle Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '4. Southern Africa', '1. [136, 105, 81]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9333333333333332, "Class_Size": 3
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.9,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.9199999999999999, "Class_Size": 5
+        },
+        "['1. He/him/his', '[18, 30)', '11. Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '14. South-eastern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '14. South-eastern Asia', '4. [189, 163, 137]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '15. Southern Asia', '1. [136, 105, 81]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[18, 30)', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                0.8,
+                1.0,
+                1.0
+            ], "AR_IOU": 0.925, "Class_Size": 4
+        },
+        "['1. He/him/his', '[18, 30)', '17. Europe', '3. [175, 148, 120]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[18, 30)', '18. Eastern Europe', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[30, 40)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9,
+                1.0
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[30, 40)', '0. Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '[30, 40)', '3. Middle Africa', '0. [102, 78, 65]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[30, 40)', '3. Middle Africa', '1. [136, 105, 81]']": {"scores": [
+                0.9,
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 2
+        },
+        "['1. He/him/his', '[30, 40)', '5. Western Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[40, 50)', '11. Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[40, 50)', '15. Southern Asia', '3. [175, 148, 120]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '2. Eastern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.9
+            ], "AR_IOU": 0.9, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[50, 60)', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0
+            ], "AR_IOU": 1.0, "Class_Size": 1
+        },
+        "['1. He/him/his', '[60, +]', '11. Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['1. He/him/his', '[60, +]', '15. Southern Asia', '2. [164, 131, 103]']": {"scores": [
+                1.0,
+                0.9
+            ], "AR_IOU": 0.95, "Class_Size": 2
+        },
+        "['2. They/them/their', '[18, 30)', '0. Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        },
+        "['2. They/them/their', '[18, 30)', '4. Southern Africa', '0. [102, 78, 65]']": {"scores": [
+                0.8
+            ], "AR_IOU": 0.8, "Class_Size": 1
+        }
+    }
+}

@@ -1,0 +1,1916 @@
+{
+    "['nationality']": {
+        "['3. American']": {
+            "scores": [
+                0.8,
+                0.8,
+                0.9,
+                0.8
+            ],
+            "AR_MASK": 0.825,
+            "Class_Size": 4
+        },
+        "['5. Angolan']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.7,
+                0.6,
+                0.2,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.74,
+            "Class_Size": 10
+        },
+        "['71. Filipino']": {
+            "scores": [
+                0.6,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 8
+        },
+        "['73. French']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian']": {
+            "scores": [
+                0.8,
+                0.9,
+                1.0,
+                0.9,
+                0.0,
+                0.8,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.788888888888889,
+            "Class_Size": 9
+        },
+        "['102. Japanese']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['105. Kenyan']": {
+            "scores": [
+                1.0,
+                0.9,
+                0.7,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8799999999999999,
+            "Class_Size": 5
+        },
+        "['146. Nigerian']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['153. Pakistani']": {
+            "scores": [
+                0.6,
+                0.1,
+                0.8,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.6399999999999999,
+            "Class_Size": 5
+        },
+        "['184. South African']": {
+            "scores": [
+                0.6,
+                0.9,
+                0.6,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.76,
+            "Class_Size": 5
+        },
+        "['224. Zimbabwean']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['227. African']": {
+            "scores": [
+                0.6,
+                1.0,
+                0.9,
+                0.9,
+                0.6,
+                0.7,
+                0.7,
+                0.9,
+                0.8,
+                0.8,
+                0.8,
+                0.9,
+                0.9,
+                0.7,
+                0.9,
+                0.6,
+                0.2,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.7772727272727272,
+            "Class_Size": 22
+        },
+        "['228. North or South American']": {
+            "scores": [
+                0.8,
+                0.8,
+                0.9,
+                0.8
+            ],
+            "AR_MASK": 0.825,
+            "Class_Size": 4
+        },
+        "['229. Asian']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.6,
+                1.0,
+                0.6,
+                0.9,
+                0.8,
+                0.1,
+                0.9,
+                0.0,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.782608695652174,
+            "Class_Size": 23
+        },
+        "['230. European']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        }
+    },
+    "['lighting']": {
+        "['0. Lighting from above the head/face']": {
+            "scores": [
+                0.6,
+                0.9,
+                1.0,
+                0.8,
+                0.9,
+                0.6,
+                1.0,
+                0.6,
+                0.7,
+                0.6,
+                0.9,
+                0.8,
+                0.9,
+                0.1,
+                0.8,
+                0.8,
+                0.9,
+                0.9,
+                0.7,
+                0.9,
+                0.9,
+                0.6,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8088235294117646,
+            "Class_Size": 34
+        },
+        "['2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8,
+                1.0,
+                0.8,
+                0.9,
+                0.9,
+                0.6,
+                0.8,
+                0.7,
+                0.7,
+                0.9,
+                0.9,
+                0.8,
+                0.8,
+                0.8,
+                0.6,
+                0.2,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.781818181818182,
+            "Class_Size": 22
+        },
+        "['3. Lighting from behind the head/face']": {
+            "scores": [
+                0.7,
+                0.8,
+                0.9,
+                0.8,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8333333333333335,
+            "Class_Size": 6
+        },
+        "['4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9,
+                0.9,
+                0.0,
+                0.7,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.790909090909091,
+            "Class_Size": 11
+        },
+        "['5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8,
+                0.8,
+                0.9,
+                0.8,
+                0.7,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9,
+                0.8,
+                0.2,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.7857142857142858,
+            "Class_Size": 14
+        }
+    },
+    "['head_pose']": {
+        "['0. Typical']": {
+            "scores": [
+                0.8,
+                0.6,
+                0.9,
+                1.0,
+                0.8,
+                0.8,
+                0.9,
+                0.6,
+                1.0,
+                0.8,
+                0.7,
+                0.7,
+                0.8,
+                0.9,
+                0.1,
+                0.9,
+                0.8,
+                0.8,
+                0.9,
+                0.7,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.2,
+                0.8,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.7999999999999998,
+            "Class_Size": 38
+        },
+        "['1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.6,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.0,
+                0.8,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.7333333333333333,
+            "Class_Size": 12
+        }
+    },
+    "['nationality', 'lighting']": {
+        "['3. American', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 2
+        },
+        "['3. American', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['3. American', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['3. American', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['3. American', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['5. Angolan', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.7,
+                0.6,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.7999999999999999,
+            "Class_Size": 5
+        },
+        "['5. Angolan', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8,
+                0.6,
+                0.2,
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.62,
+            "Class_Size": 5
+        },
+        "['5. Angolan', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9,
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8333333333333334,
+            "Class_Size": 3
+        },
+        "['5. Angolan', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.6,
+                0.2,
+                0.9
+            ],
+            "AR_MASK": 0.5666666666666668,
+            "Class_Size": 3
+        },
+        "['71. Filipino', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.6,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8428571428571429,
+            "Class_Size": 7
+        },
+        "['71. Filipino', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 4
+        },
+        "['71. Filipino', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['71. Filipino', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 2
+        },
+        "['71. Filipino', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['73. French', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['73. French', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9199999999999999,
+            "Class_Size": 5
+        },
+        "['93. Indian', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['93. Indian', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 2
+        },
+        "['93. Indian', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9,
+                0.0,
+                0.9
+            ],
+            "AR_MASK": 0.6,
+            "Class_Size": 3
+        },
+        "['93. Indian', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.875,
+            "Class_Size": 4
+        },
+        "['102. Japanese', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['102. Japanese', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '0. Lighting from above the head/face']": {
+            "scores": [
+                1.0,
+                0.9,
+                0.7,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8799999999999999,
+            "Class_Size": 5
+        },
+        "['105. Kenyan', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                1.0,
+                0.9,
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8749999999999999,
+            "Class_Size": 4
+        },
+        "['105. Kenyan', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.9,
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8333333333333334,
+            "Class_Size": 3
+        },
+        "['146. Nigerian', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['146. Nigerian', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['153. Pakistani', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.6,
+                0.1,
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.575,
+            "Class_Size": 4
+        },
+        "['153. Pakistani', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['153. Pakistani', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['184. South African', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.6,
+                0.6,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.725,
+            "Class_Size": 4
+        },
+        "['184. South African', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.8
+            ],
+            "AR_MASK": 0.7666666666666666,
+            "Class_Size": 3
+        },
+        "['224. Zimbabwean', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['227. African', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.6,
+                1.0,
+                0.9,
+                0.6,
+                0.7,
+                0.9,
+                0.8,
+                0.8,
+                0.9,
+                0.7,
+                0.9,
+                0.6,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8066666666666668,
+            "Class_Size": 15
+        },
+        "['227. African', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                1.0,
+                0.9,
+                0.9,
+                0.6,
+                0.7,
+                0.7,
+                0.9,
+                0.8,
+                0.8,
+                0.6,
+                0.2,
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.7384615384615384,
+            "Class_Size": 13
+        },
+        "['227. African', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.7,
+                0.8
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['227. African', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9,
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8333333333333334,
+            "Class_Size": 3
+        },
+        "['227. African', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.9,
+                0.7,
+                0.9,
+                0.6,
+                0.2,
+                0.9
+            ],
+            "AR_MASK": 0.7000000000000001,
+            "Class_Size": 6
+        },
+        "['228. North or South American', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 2
+        },
+        "['228. North or South American', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['228. North or South American', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['228. North or South American', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['228. North or South American', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['229. Asian', '0. Lighting from above the head/face']": {
+            "scores": [
+                0.9,
+                0.6,
+                1.0,
+                0.6,
+                0.9,
+                0.8,
+                0.1,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8058823529411765,
+            "Class_Size": 17
+        },
+        "['229. Asian', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8666666666666667,
+            "Class_Size": 6
+        },
+        "['229. Asian', '3. Lighting from behind the head/face']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8666666666666667,
+            "Class_Size": 3
+        },
+        "['229. Asian', '4. Lighting from the left of the head/face']": {
+            "scores": [
+                0.9,
+                0.0,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.7714285714285715,
+            "Class_Size": 7
+        },
+        "['229. Asian', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.8666666666666667,
+            "Class_Size": 6
+        },
+        "['230. European', '2. Lighting from in front of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['230. European', '5. Lighting from the right of the head/face']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        }
+    },
+    "['nationality', 'head_pose']": {
+        "['3. American', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8000000000000002,
+            "Class_Size": 3
+        },
+        "['3. American', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['5. Angolan', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.7,
+                0.2,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.7375,
+            "Class_Size": 8
+        },
+        "['5. Angolan', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['71. Filipino', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8833333333333334,
+            "Class_Size": 6
+        },
+        "['71. Filipino', '1. Atypical']": {
+            "scores": [
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['73. French', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                1.0,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 6
+        },
+        "['93. Indian', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.0,
+                0.8
+            ],
+            "AR_MASK": 0.5666666666666668,
+            "Class_Size": 3
+        },
+        "['102. Japanese', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '0. Typical']": {
+            "scores": [
+                1.0,
+                0.7,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.875,
+            "Class_Size": 4
+        },
+        "['105. Kenyan', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['146. Nigerian', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['153. Pakistani', '0. Typical']": {
+            "scores": [
+                0.6,
+                0.1,
+                0.8,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.6399999999999999,
+            "Class_Size": 5
+        },
+        "['184. South African', '0. Typical']": {
+            "scores": [
+                0.6,
+                0.9,
+                0.8
+            ],
+            "AR_MASK": 0.7666666666666666,
+            "Class_Size": 3
+        },
+        "['184. South African', '1. Atypical']": {
+            "scores": [
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['224. Zimbabwean', '0. Typical']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['227. African', '0. Typical']": {
+            "scores": [
+                0.6,
+                1.0,
+                0.9,
+                0.7,
+                0.7,
+                0.9,
+                0.8,
+                0.8,
+                0.9,
+                0.7,
+                0.2,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.775,
+            "Class_Size": 16
+        },
+        "['227. African', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.8,
+                0.9,
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.7833333333333332,
+            "Class_Size": 6
+        },
+        "['228. North or South American', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8000000000000002,
+            "Class_Size": 3
+        },
+        "['228. North or South American', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['229. Asian', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.6,
+                1.0,
+                0.8,
+                0.1,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8222222222222223,
+            "Class_Size": 18
+        },
+        "['229. Asian', '1. Atypical']": {
+            "scores": [
+                0.6,
+                0.9,
+                0.0,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.6399999999999999,
+            "Class_Size": 5
+        },
+        "['230. European', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        }
+    },
+    "['lighting', 'head_pose']": {
+        "['0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.6,
+                0.9,
+                1.0,
+                0.8,
+                0.6,
+                1.0,
+                0.7,
+                0.8,
+                0.9,
+                0.1,
+                0.8,
+                0.9,
+                0.7,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.816,
+            "Class_Size": 25
+        },
+        "['0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.6,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.788888888888889,
+            "Class_Size": 9
+        },
+        "['2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                1.0,
+                0.8,
+                0.9,
+                0.8,
+                0.7,
+                0.7,
+                0.9,
+                0.9,
+                0.8,
+                0.8,
+                0.2,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.7944444444444445,
+            "Class_Size": 18
+        },
+        "['2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.8,
+                0.6
+            ],
+            "AR_MASK": 0.725,
+            "Class_Size": 4
+        },
+        "['3. Lighting from behind the head/face', '0. Typical']": {
+            "scores": [
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.85,
+            "Class_Size": 4
+        },
+        "['4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                0.7,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8625,
+            "Class_Size": 8
+        },
+        "['4. Lighting from the left of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.0,
+                0.9
+            ],
+            "AR_MASK": 0.6,
+            "Class_Size": 3
+        },
+        "['5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.8,
+                0.8,
+                0.7,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.2,
+                0.9
+            ],
+            "AR_MASK": 0.77,
+            "Class_Size": 10
+        },
+        "['5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.9,
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.825,
+            "Class_Size": 4
+        }
+    },
+    "['nationality', 'lighting', 'head_pose']": {
+        "['3. American', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['3. American', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['3. American', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['3. American', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['3. American', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['3. American', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['5. Angolan', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.7,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.85,
+            "Class_Size": 4
+        },
+        "['5. Angolan', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.6
+            ],
+            "AR_MASK": 0.6,
+            "Class_Size": 1
+        },
+        "['5. Angolan', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.2,
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.625,
+            "Class_Size": 4
+        },
+        "['5. Angolan', '2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.6
+            ],
+            "AR_MASK": 0.6,
+            "Class_Size": 1
+        },
+        "['5. Angolan', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['5. Angolan', '4. Lighting from the left of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['5. Angolan', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.2,
+                0.9
+            ],
+            "AR_MASK": 0.55,
+            "Class_Size": 2
+        },
+        "['5. Angolan', '5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.6
+            ],
+            "AR_MASK": 0.6,
+            "Class_Size": 1
+        },
+        "['71. Filipino', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8800000000000001,
+            "Class_Size": 5
+        },
+        "['71. Filipino', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['71. Filipino', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 4
+        },
+        "['71. Filipino', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['71. Filipino', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['71. Filipino', '4. Lighting from the left of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['71. Filipino', '5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['73. French', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['73. French', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                1.0,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9249999999999999,
+            "Class_Size": 4
+        },
+        "['93. Indian', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['93. Indian', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian', '2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian', '3. Lighting from behind the head/face', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['93. Indian', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['93. Indian', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 2
+        },
+        "['93. Indian', '4. Lighting from the left of the head/face', '1. Atypical']": {
+            "scores": [
+                0.0
+            ],
+            "AR_MASK": 0.0,
+            "Class_Size": 1
+        },
+        "['93. Indian', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8666666666666667,
+            "Class_Size": 3
+        },
+        "['93. Indian', '5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['102. Japanese', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['102. Japanese', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                1.0,
+                0.7,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.875,
+            "Class_Size": 4
+        },
+        "['105. Kenyan', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                1.0,
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8666666666666667,
+            "Class_Size": 3
+        },
+        "['105. Kenyan', '2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '3. Lighting from behind the head/face', '0. Typical']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['105. Kenyan', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['105. Kenyan', '5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['146. Nigerian', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['146. Nigerian', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['153. Pakistani', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.6,
+                0.1,
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.575,
+            "Class_Size": 4
+        },
+        "['153. Pakistani', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['153. Pakistani', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['184. South African', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.6,
+                0.8
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 2
+        },
+        "['184. South African', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.6,
+                0.9
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['184. South African', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                0.8
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 2
+        },
+        "['184. South African', '2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.6
+            ],
+            "AR_MASK": 0.6,
+            "Class_Size": 1
+        },
+        "['224. Zimbabwean', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['227. African', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.6,
+                1.0,
+                0.7,
+                0.9,
+                0.8,
+                0.9,
+                0.7,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8300000000000001,
+            "Class_Size": 10
+        },
+        "['227. African', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.8,
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.76,
+            "Class_Size": 5
+        },
+        "['227. African', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                1.0,
+                0.9,
+                0.7,
+                0.7,
+                0.9,
+                0.8,
+                0.8,
+                0.2,
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 10
+        },
+        "['227. African', '2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6,
+                0.6
+            ],
+            "AR_MASK": 0.7000000000000001,
+            "Class_Size": 3
+        },
+        "['227. African', '3. Lighting from behind the head/face', '0. Typical']": {
+            "scores": [
+                0.7
+            ],
+            "AR_MASK": 0.7,
+            "Class_Size": 1
+        },
+        "['227. African', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['227. African', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.7,
+                0.9
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['227. African', '4. Lighting from the left of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['227. African', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.7,
+                0.9,
+                0.2,
+                0.9
+            ],
+            "AR_MASK": 0.675,
+            "Class_Size": 4
+        },
+        "['227. African', '5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.6
+            ],
+            "AR_MASK": 0.75,
+            "Class_Size": 2
+        },
+        "['228. North or South American', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['228. North or South American', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['228. North or South American', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 2
+        },
+        "['228. North or South American', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['228. North or South American', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['228. North or South American', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['229. Asian', '0. Lighting from above the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                0.6,
+                1.0,
+                0.8,
+                0.1,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.8,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8071428571428573,
+            "Class_Size": 14
+        },
+        "['229. Asian', '0. Lighting from above the head/face', '1. Atypical']": {
+            "scores": [
+                0.6,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.7999999999999999,
+            "Class_Size": 3
+        },
+        "['229. Asian', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.8800000000000001,
+            "Class_Size": 5
+        },
+        "['229. Asian', '2. Lighting from in front of the head/face', '1. Atypical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['229. Asian', '3. Lighting from behind the head/face', '0. Typical']": {
+            "scores": [
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 1
+        },
+        "['229. Asian', '3. Lighting from behind the head/face', '1. Atypical']": {
+            "scores": [
+                0.8,
+                0.9
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 2
+        },
+        "['229. Asian', '4. Lighting from the left of the head/face', '0. Typical']": {
+            "scores": [
+                0.9,
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 5
+        },
+        "['229. Asian', '4. Lighting from the left of the head/face', '1. Atypical']": {
+            "scores": [
+                0.0,
+                0.9
+            ],
+            "AR_MASK": 0.45,
+            "Class_Size": 2
+        },
+        "['229. Asian', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8,
+                0.9,
+                0.9,
+                0.8
+            ],
+            "AR_MASK": 0.8500000000000001,
+            "Class_Size": 4
+        },
+        "['229. Asian', '5. Lighting from the right of the head/face', '1. Atypical']": {
+            "scores": [
+                0.9,
+                0.9
+            ],
+            "AR_MASK": 0.9,
+            "Class_Size": 2
+        },
+        "['230. European', '2. Lighting from in front of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        },
+        "['230. European', '5. Lighting from the right of the head/face', '0. Typical']": {
+            "scores": [
+                0.8
+            ],
+            "AR_MASK": 0.8,
+            "Class_Size": 1
+        }
+    }
+}
