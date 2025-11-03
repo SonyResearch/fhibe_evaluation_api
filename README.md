@@ -79,6 +79,8 @@ The bias report contains plots of metric performance for each attribute group sp
 
 The table is sorted from high-to-low disparity, so the rows at the top of the table are the most disparate attribute groups, showing the areas where the model needs most work (depending on its application). If the model has no significant disparities between attribute groups, the model is well balanced and exhibits low bias.
 
+We chose not to include FHIBE images and their annotations in the bias reports for privacy reasons. The dataset is GDPR compliant, meaning that subjects can revoke their consent to have their data (including images) included in the dataset at any time. If we enable bias reports to be generated with subjects' images, and a subject revokes their consent, it is challenging and burdensome to track down every pdf containing their image(s) and delete them.
+
 Examples of generated bias reports from popular open source models evaluated on FHIBE can be found in [examples/open_source_model_bias_reports/](examples/open_source_model_bias_reports/).
 
 ## Getting started
