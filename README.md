@@ -206,6 +206,10 @@ The steps to do this are as follows:
 
 Assuming that you formatted your model results correctly and put them in the correct location for the evaluation API to find them, the evaluation pipeline will simply skip inference and perform the rest of the pipeline, including the bias report generation.
 
+## Issues?
+
+Please raise an [issue](https://github.com/SonyResearch/fhibe_evaluation_api/issues) or [question](https://github.com/SonyResearch/fhibe_evaluation_api/discussions/categories/q-a) if it is not already answered.
+
 ## License
 
 This software is distributed under the [Apache 2.0 License](LICENSE.txt).
