@@ -24,20 +24,17 @@ Download the latest dataset \*downsampled_public.tar from https://fairnessbenchm
 The dataset tar ball will unpack into the following directory structure:
 
 ```
-fhibe.{version_name}_downsampled_public/
-├── data
-│   ├── aggregated_results
-│   │   ├── aggregated_scores
-│   │   └── predictions
-│   ├── annotator_metadata
-│   │   ├── QAannotator_demographics.csv
-│   │   └── annotator_demographics.csv
-│   ├── processed
-│   │   ├── data
-│   │   ├── fhibe_downsampled
-│   │   └── fhibe_face_crop_align
-│   └── raw
-│       └── fhibe_downsampled
+fhibe.{version_name}_downsampled_public
+├── results/
+│   ├── face_parsing/
+│   └── face_verification/
+└── data/
+    ├── protocol/
+    ├── processed/ # dataset metadata here
+    ├── annotator_metadata/
+    ├── raw/
+    │    └── fhibe_downsampled/  # dataset here
+    └── aggregated_results/
 ```
 
 Where the `{version_name}` refers to the current version, which will vary depending on when you downloaded the dataset.
