@@ -144,6 +144,8 @@ def eval_api_fixture():
 
         data_dir = os.path.join(CURRENT_DIR, "static")
         processed_data_dir = os.path.join(data_dir, "data", "processed")
+        print("CURRENT_DIR: ", CURRENT_DIR)
+        print("data_dir: ", data_dir)
         eval_api = get_eval_api(
             dataset_name,
             dataset_base,
