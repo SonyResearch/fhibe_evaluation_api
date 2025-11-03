@@ -119,12 +119,12 @@ def update_fixed_model_outputs(demo_model_fixture):
         new_model_outputs = {}
         for key in fixed_model_outputs:
             newkey = key.replace(
-                "/home/ubuntu/fairness-benchmark-internal/tests/static/data", data_dir
+                "/home/austin.hoag/fhibe_evaluation_api/tests/static/data", data_dir
             )
             if task_name == "face_super_resolution":
                 old_super_res_fp = fixed_model_outputs[key]
                 new_super_res_fp = old_super_res_fp["super_res_filename"].replace(
-                    "/home/ubuntu/fairness-benchmark-internal/tests",
+                    "/home/austin.hoag/fhibe_evaluation_api/tests",
                     CURRENT_DIR,
                 )
                 new_model_outputs[newkey] = {"super_res_filename": new_super_res_fp}
@@ -144,6 +144,8 @@ def eval_api_fixture():
 
         data_dir = os.path.join(CURRENT_DIR, "static")
         processed_data_dir = os.path.join(data_dir, "data", "processed")
+        print("CURRENT_DIR: ", CURRENT_DIR)
+        print("data_dir: ", data_dir)
         eval_api = get_eval_api(
             dataset_name,
             dataset_base,
