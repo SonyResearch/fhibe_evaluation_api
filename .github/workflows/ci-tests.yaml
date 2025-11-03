@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests and coverage
         run: |
-          poetry run pytest -s tests/test_percentage_correct_keypoints
+          poetry run pytest -s tests/test_fhibe_metrics.py::test_percentage_correct_keypoints
           # poetry run coverage run --source=fhibe_eval_api/ -m pytest -s tests 
           # poetry run coverage report
           # poetry run coverage xml -o coverage.xml
